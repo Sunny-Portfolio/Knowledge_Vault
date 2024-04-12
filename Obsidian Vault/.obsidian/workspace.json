@@ -1,0 +1,191 @@
+{
+  "main": {
+    "id": "d2b1a46f98418c29",
+    "type": "split",
+    "children": [
+      {
+        "id": "8d89def8592d51d7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5239a12c9f8b00d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Coding/Markdown Cheat Sheet.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3d1a5948ba85863e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Coding/Markdown Cheat Sheet.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ce30a3b6c909ed18",
+    "type": "split",
+    "children": [
+      {
+        "id": "68481a7847fa1999",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d65c94fae8f3d52e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "32dbe4740fa11d09",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "bd78d1a3af599296",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "dd8cd52085d8c551",
+    "type": "split",
+    "children": [
+      {
+        "id": "3f811a0415da3d0c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "88c107c5e08a2f14",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Coding/Markdown Cheat Sheet.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bbc53bc645afa596",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Coding/Markdown Cheat Sheet.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9900d6859e3fea9b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e80a606eebd66558",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Coding/Markdown Cheat Sheet.md"
+              }
+            }
+          },
+          {
+            "id": "5ac53dee34478316",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "5239a12c9f8b00d2",
+  "lastOpenFiles": [
+    "2024-04-12.md",
+    "Coding/Markdown Cheat Sheet.md",
+    "google.com.md",
+    "link4.md",
+    "Untitled.md",
+    "Code Notes/Automate the Boring Stuff/Basics.md",
+    "Poutine.md",
+    "basics.txt",
+    "Code Notes/Automate the Boring Stuff/basics.txt",
+    "Code Notes/Automate the Boring Stuff",
+    "Untitled 1",
+    "Code Notes/Untitled.md",
+    "Code Notes",
+    "Coding/Untitled",
+    "Coding/Untitled.canvas",
+    "Coding",
+    "Untitled"
+  ]
+}
