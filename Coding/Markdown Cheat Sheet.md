@@ -1,6 +1,6 @@
 ### Editing
 |        Name         |                          Code                          |                         Demo                         | Shortcut |     |
-|:-------------------:|:------------------------------------------------------:|:----------------------------------------------------:| -------- | --- |
+| :-----------------: | :----------------------------------------------------: | :--------------------------------------------------: | -------- | --- |
 |      Header 1       |                          `#`                           |                                                      |          |     |
 |      Header 6       |                        `######`                        |                                                      |          |     |
 |        Tags         |                         `#tag`                         |                         #tag                         |          |     |
@@ -35,7 +35,28 @@
 |  Ext Img Dimension  |       \!\[image\|640x480](https://...image.jpg)        |                                                      |          |     |
 | Ext Img 1 Dimension |         \!\[image\|500](https://...image.jpg)          |                                                      |          |     |
 |                     |                                                        |                                                      |          |     |
-|       Quotes        |                    `> quote 12345`                     |                    > quote 12345                     |          |     |
+|       Quotes        |                    `> quote 12345`                     |                                                      |          |     |
+|                     |                                                        |                                                      |          |     |
+|                     |                                                        |                                                      |          |     |
+
+Footnote:
+This is a simple footnote[^1].
+
+[^1]: This is the referenced text. 
+[^2]: Add 2 spaces at the start of each new line.
+  
+
+[^note]: Named footnotes still appear as numbers, but can make it easier to identify and link references.****
+
+- asdf
+* sdkf
+
+`-[sdf]`
+- [ ] sdjfk
+- [ ] 
+### Obsidian Navigation
+|      Name      | Shortcut |     |
+|:---------- |          |     |
 
 
 - asdf
