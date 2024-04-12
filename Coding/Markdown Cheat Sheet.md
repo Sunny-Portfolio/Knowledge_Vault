@@ -12,7 +12,7 @@
 |     Italic Bold     |                  `___italic bold___`                   |                  ___italic bold___                   |          |     |
 |    Strikethrough    |                   `~~Striked out~~`                    |                   ~~Striked out~~                    |          |     |
 |                     |                                                        |                                                      |          |     |
-|    Markdown Link    |                  `[Link](coding.md)`                   |                  [Link](coding.md)                   | cmd k    |     |
+|    Markdown Link    |         `[Link](Markdown%20Cheat%20Sheet.md)`          |         [Link](Markdown%20Cheat%20Sheet.md)          | cmd k    |     |
 |  Link Obsidian URI  | `[note](obsidian://open?vault=MainVault&file=Note.md)` | [note](obsidian://open?vault=MainVault&file=Note.md) |          |     |
 |      Wiki Link      |                      `[[Link2]]`                       |                      [[Link2]]                       |          |     |
 |    External Link    |              `[Link](https://google.com)`              |              [Link](https://google.com)              |          |     |
@@ -39,32 +39,16 @@
 |                     |                                                        |                                                      |          |     |
 |                     |                                                        |                                                      |          |     |
 
-Footnote:
+##### Footnote:
 This is a simple footnote[^1].
 
 [^1]: This is the referenced text. 
 [^2]: Add 2 spaces at the start of each new line.
-  
+  So you can write multiple lines.
+[^note]: Named footnotes still appear as numbers, but can make it easier to identify and link references.
 
-[^note]: Named footnotes still appear as numbers, but can make it easier to identify and link references.****
+This is a inline footnote.^[inline footnote]
 
-- asdf
-* sdkf
-
-`-[sdf]`
-- [ ] sdjfk
-- [ ] 
-### Obsidian Navigation
-|      Name      | Shortcut |     |
-|:---------- |          |     |
-
-
-- asdf
-* sdkf
-
-`-[sdf]`
-- [ ] sdjfk
-- [ ] 
 ### Obsidian Navigation
 |      Name      | Shortcut |     |
 |:--------------:| -------- | --- |

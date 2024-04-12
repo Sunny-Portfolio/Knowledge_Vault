@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding/Markdown Cheat Sheet.md",
+                "file": "Poutine.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding/Markdown Cheat Sheet.md",
+                "file": "Poutine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding/Markdown Cheat Sheet.md",
+                "file": "Poutine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coding/Markdown Cheat Sheet.md"
+                "file": "Poutine.md"
               }
             }
           },
@@ -170,13 +170,14 @@
   },
   "active": "5239a12c9f8b00d2",
   "lastOpenFiles": [
-    "google.com.md",
-    "Coding/Markdown Cheat Sheet.md",
-    "2024-04-12.md",
-    "link4.md",
     "Untitled.md",
-    "Code Notes/Automate the Boring Stuff/Basics.md",
     "Poutine.md",
+    "Coding/Markdown Cheat Sheet.md",
+    "link4.md",
+    "coding.md",
+    "google.com.md",
+    "2024-04-12.md",
+    "Code Notes/Automate the Boring Stuff/Basics.md",
     "basics.txt",
     "Code Notes/Automate the Boring Stuff/basics.txt",
     "Code Notes/Automate the Boring Stuff",
