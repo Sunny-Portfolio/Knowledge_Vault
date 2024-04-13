@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding/Obsidian Markdown Cheat Sheet.md",
+                "file": "Poutine.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding/Obsidian Markdown Cheat Sheet.md",
+                "file": "Poutine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding/Obsidian Markdown Cheat Sheet.md",
+                "file": "Poutine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coding/Obsidian Markdown Cheat Sheet.md"
+                "file": "Poutine.md"
               }
             }
           },
@@ -158,11 +158,11 @@
   },
   "active": "24f3c1c9efd0e1d6",
   "lastOpenFiles": [
+    "Coding Notes/Automate the Boring Stuff/Chapter 9 - Reading and Writing Files.md",
+    "Coding/Obsidian Markdown Cheat Sheet.md",
     "Coding Notes/Automate the Boring Stuff/Chapter 7 - Regular Expression.md",
     "Coding/Git Cheat Sheet.md",
-    "Coding Notes/Automate the Boring Stuff/Chapter 9 - Reading and Writing Files.md",
     "Coding Notes/Automate the Boring Stuff/Chapter 8 - Input Validation.md",
-    "Coding/Obsidian Markdown Cheat Sheet.md",
     "Coding Notes/Automate the Boring Stuff/Install 3rd Party Modules.md",
     "Coding Notes/Automate the Boring Stuff/Basics Python.md",
     "Poutine.md",
