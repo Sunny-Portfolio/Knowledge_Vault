@@ -17,14 +17,15 @@ import re   # you need to import
 >>> mo = phoneNumRegex.search('My number is 415-555-4242.')
 ```
 
-if pattern found, search() returns Match object which has a group() method that returns the matched text from the original string.
+if pattern found, `search()` returns Match object which has a `group()` method that returns the matched text from the original string.
 ```py
 >>> print('Phone number found: ' + mo.group())
 Phone number found: 415-555-4242
 ```
 
 
-Adding ( ) to regex will create gruops of the regex:
+Adding `( )` to regex will create groups of the regex:
+```py
 >>> phoneNumRegex = re.compile(r'(\d\d\d)-(\d\d\d-\d\d\d\d)')
 >>> mo = phoneNumRegex.search('My number is 415-555-4242.')
 >>> mo.group(1)
@@ -35,10 +36,12 @@ Adding ( ) to regex will create gruops of the regex:
 '415-555-4242'
 >>> mo.group()      # '' return entire matched text
 '415-555-4242'
+```
 
-
-# groups() - retrieve all groups at once
-# returns tuple of multiple values, can use to multiple-assignment
+##### groups()
+- retrieve all groups at once
+- returns tuple of multiple values, can use to multiple-assignment
+```py
 >>> mo.groups()
 ('415', '555-4242')
 >>> areaCode, mainNumber = mo.groups()
@@ -46,19 +49,22 @@ Adding ( ) to regex will create gruops of the regex:
 415
 >>> print(mainNumber)
 555-4242
+```
 
-
-# if you need to match a ( ) use a \ excape character
+##### if you need to match a `( )` use a `\` escape character
+```py
 >>> phoneNumRegex = re.compile(r'(\(\d\d\d\)) (\d\d\d-\d\d\d\d)')
+```
 
-Pipe
-====
-# Pipe to match one of the expressions
+### Pipe
+---
+##### Pipe to match one of the expressions
+```py
 >>> heroRegex = re.compile (r'Batman|Tina Fey')
 >>> mo1 = heroRegex.search('Batman and Tina Fey')
 >>> mo1.group()
 'Batman'
-
+```
 # use a ( ) to match part of the string
 >>> batRegex = re.compile(r'Bat(man|mobile|copter|bat)')
 >>> mo = batRegex.search('Batmobile lost a wheel')
