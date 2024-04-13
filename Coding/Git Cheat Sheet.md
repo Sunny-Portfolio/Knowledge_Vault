@@ -1,5 +1,5 @@
-### Create a new repo
----
+### <u>Create a new repo</u>
+
 Create a new repo on github, get the repo link
 ```sh
 git init	// create initial setup of new repo
@@ -18,25 +18,41 @@ git push -u -f origin main
 ---
 ### <u>The Basics</u>
 
-// set local default git :branch to main
+set local default git :branch to main
+```sh
 git config --global init.defaultBranch main
+```
 
-// Clone a dir already created on github, if you didn't git init the project folder
+Clone a dir already created on github, if you didn't git init the project folder
+```sh
 git clone git@github.com:Sunny-Portfolio/notes.git
+```
 
-// Add all files in current dir to be commited
+Add all files in current dir to be commited
+```sh
 git add .
+```
 
+```sh
 git commit -m "Type your msg here"
+```
 
-// default for git push origin main
+Default for git push origin main
+```sh
 git push
+```
 
+```sh
 git --version
+```
 
-// display the URL of the repo
+Display the URL of the repo
+```sh
 git remote -v
+```
 
+```sh
 git status
 git log
+```
 

@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cdf7decbbac006ea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Coding/Git Cheat Sheet.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "24f3c1c9efd0e1d6",
             "type": "leaf",
             "state": {
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding/Git Cheat Sheet.md",
+                "file": "Coding/Obsidian Markdown Cheat Sheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding/Git Cheat Sheet.md",
+                "file": "Coding/Obsidian Markdown Cheat Sheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coding/Git Cheat Sheet.md"
+                "file": "Coding/Obsidian Markdown Cheat Sheet.md"
               }
             }
           },
@@ -168,12 +156,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cdf7decbbac006ea",
+  "active": "24f3c1c9efd0e1d6",
   "lastOpenFiles": [
-    "Coding Notes/Automate the Boring Stuff/Chapter 9 - Reading and Writing Files.md",
-    "Coding/Git Cheat Sheet.md",
-    "Coding Notes/Automate the Boring Stuff/Chapter 8 - Input Validation.md",
     "Coding Notes/Automate the Boring Stuff/Chapter 7 - Regular Expression.md",
+    "Coding/Git Cheat Sheet.md",
+    "Coding Notes/Automate the Boring Stuff/Chapter 9 - Reading and Writing Files.md",
+    "Coding Notes/Automate the Boring Stuff/Chapter 8 - Input Validation.md",
     "Coding/Obsidian Markdown Cheat Sheet.md",
     "Coding Notes/Automate the Boring Stuff/Install 3rd Party Modules.md",
     "Coding Notes/Automate the Boring Stuff/Basics Python.md",
