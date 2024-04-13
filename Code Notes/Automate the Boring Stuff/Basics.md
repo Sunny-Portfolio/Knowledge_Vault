@@ -140,81 +140,111 @@ If it is a list of list, then use `copy.deepcopy()`
 ```
 
 ##### items() returns tuples of key and value
+```py
 >>> for i in spam.items():
 ... print(i)
 ('color', 'red')
 ('age', 42)
+```
 
-
-get() - used to get item with a defaul fallback value if key not found
+##### get() 
+- used to get item with a defaul fallback value if key not found
+```py
 str(picnicItems.get('cups', 0))
+```
 
-setdefault() - set a value for a key if that key is not available.
+##### setdefault() 
+- set a value for a key if that key is not available.
+```py
 if 'color' not in spam:
     spam['color'] = 'black'
 
 >>> spam.setdefault('color', 'black')   # same as the above 2 lines
+```
 
 
-Pretty Printing  - access to pprint() and pformat() that pretty print dict
----------------
+##### Pretty Printing  
+- access to pprint() and pformat() that pretty print dict
+```py
 import pprint
 pprint.pprint(count)
+```
 
-# These two are the same thing
+These two are the same thing
+```py
 pprint.pprint(someDictionaryValue)
 print(pprint.pformat(someDictionaryValue))
+```
 
-
-
-Ch6 - Manipulating Strings
-==========================
+### Ch6 - Manipulating Strings
+---
 Raw Strings:
+```py
 >>> print(r'That is Carol\'s cat.')
+```
 The r marks that the string is a raw strings and ignores all escape characters
 
 Multiline Comments:
+```py
 """ this is 
 multiline
 comment"""
+```
 
 Use string interpolation %s for string concatenation
+```py
 >>> name = 'Al'
 >>> age = 4000
 >>> 'My name is %s. I am %s years old.' % (name, age)
+```
 
 Python 3.6+ can use f-strings. This seems more intuitive.
+```py
 >>> name = 'Al'
 >>> age = 4000
 >>> f'My name is {name}. Next year I will be {age + 1}.'
+```
+
 
 
 join() and split() methods
+```py
 >>> ', '.join(['cats', 'rats', 'bats'])
 'cats, rats, bats'
+```
 
+```py
 >>> 'My name is Simon'.split()
 ['My', 'name', 'is', 'Simon']
-
+```
 
 Splitting with partition() method
+```py
 >>> 'Hello, world!'.partition('o')
 ('Hell', 'o', ', world!')
+```
 
 If separator string not found, 1st string is whole string, 2nd 3rd empty
 
 Assign 3 return strings:
+```py
 >>> before, sep, after = 'Hello, world!'.partition(' ')
+```
 
 
 Justifying string with rjust(), ljust(), and center() methods
+```py
 >>> 'Hello'.rjust(10)   # hello is 5 spaces, so add 5 to left
 '     Hello'
+```
 
+```py
 >>> 'Hello'.ljust(20, '-')  # add a fill character
 'Hello---------------'
+```
 
 Useful to print stuff like this:
+```
 ---PICNIC ITEMS--
 sandwiches..    4
 apples......   12
@@ -225,23 +255,27 @@ sandwiches..........     4
 apples..............    12
 cups................     4
 cookies.............  8000
+```
 
 
 Use ord() and chr() functions to get Unicode code point
+```py
 >>> ord('!')
 33
 >>> chr(65)
 'A'
+```
 
 
 Copy and paste with pyperclip module:
-pyperclip module has copy() and paste() functions that sends text to and from
-computer's clipboard. Makes it easy to copy paste to email, word, etc.
-Pyperclip module doesn't come with Python. It is 3rd party.
+- Pyperclip module has copy() and paste() functions that sends text to and from computer's clipboard. Makes it easy to copy paste to email, word, etc.
+- Pyperclip module doesn't come with Python. It is 3rd party.
+```py
 >>> import pyperclip
 >>> pyperclip.copy('Hello, world!')
 >>> pyperclip.paste()
 'Hello, world!'
+```
 
 
 
