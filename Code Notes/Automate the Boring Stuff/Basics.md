@@ -178,36 +178,34 @@ print(pprint.pformat(someDictionaryValue))
 
 ### Ch6 - Manipulating Strings
 ---
-Raw Strings:
+##### Raw Strings:
 ```py
 >>> print(r'That is Carol\'s cat.')
 ```
 The r marks that the string is a raw strings and ignores all escape characters
 
-Multiline Comments:
+##### Multiline Comments:
 ```py
 """ this is 
 multiline
 comment"""
 ```
 
-Use string interpolation %s for string concatenation
+##### Use string interpolation %s for string concatenation
 ```py
 >>> name = 'Al'
 >>> age = 4000
 >>> 'My name is %s. I am %s years old.' % (name, age)
 ```
 
-Python 3.6+ can use f-strings. This seems more intuitive.
+##### Python 3.6+ can use f-strings. This seems more intuitive.
 ```py
 >>> name = 'Al'
 >>> age = 4000
 >>> f'My name is {name}. Next year I will be {age + 1}.'
 ```
 
-
-
-join() and split() methods
+##### join() and split() methods
 ```py
 >>> ', '.join(['cats', 'rats', 'bats'])
 'cats, rats, bats'
@@ -218,7 +216,7 @@ join() and split() methods
 ['My', 'name', 'is', 'Simon']
 ```
 
-Splitting with partition() method
+##### Splitting with partition() method
 ```py
 >>> 'Hello, world!'.partition('o')
 ('Hell', 'o', ', world!')
@@ -226,13 +224,13 @@ Splitting with partition() method
 
 If separator string not found, 1st string is whole string, 2nd 3rd empty
 
-Assign 3 return strings:
+##### Assign 3 return strings:
 ```py
 >>> before, sep, after = 'Hello, world!'.partition(' ')
 ```
 
 
-Justifying string with rjust(), ljust(), and center() methods
+##### Justifying string with rjust(), ljust(), and center() methods
 ```py
 >>> 'Hello'.rjust(10)   # hello is 5 spaces, so add 5 to left
 '     Hello'
@@ -243,7 +241,7 @@ Justifying string with rjust(), ljust(), and center() methods
 'Hello---------------'
 ```
 
-Useful to print stuff like this:
+##### Useful to print stuff like this:
 ```
 ---PICNIC ITEMS--
 sandwiches..    4
@@ -258,7 +256,7 @@ cookies.............  8000
 ```
 
 
-Use ord() and chr() functions to get Unicode code point
+##### Use ord() and chr() functions to get Unicode code point
 ```py
 >>> ord('!')
 33
@@ -267,7 +265,7 @@ Use ord() and chr() functions to get Unicode code point
 ```
 
 
-Copy and paste with pyperclip module:
+##### Copy and paste with pyperclip module:
 - Pyperclip module has copy() and paste() functions that sends text to and from computer's clipboard. Makes it easy to copy paste to email, word, etc.
 - Pyperclip module doesn't come with Python. It is 3rd party.
 ```py
