@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding Notes/Automate the Boring Stuff/Install 3rd Party Modules.md",
+                "file": "Coding Notes/Automate the Boring Stuff/Chapter 7 - Regular Expression.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding Notes/Automate the Boring Stuff/Install 3rd Party Modules.md",
+                "file": "Coding Notes/Automate the Boring Stuff/Chapter 7 - Regular Expression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding Notes/Automate the Boring Stuff/Install 3rd Party Modules.md",
+                "file": "Coding Notes/Automate the Boring Stuff/Chapter 7 - Regular Expression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coding Notes/Automate the Boring Stuff/Install 3rd Party Modules.md"
+                "file": "Coding Notes/Automate the Boring Stuff/Chapter 7 - Regular Expression.md"
               }
             }
           },
@@ -158,8 +158,9 @@
   },
   "active": "cdf7decbbac006ea",
   "lastOpenFiles": [
-    "Coding Notes/Automate the Boring Stuff/Basics Python.md",
     "Coding Notes/Automate the Boring Stuff/Install 3rd Party Modules.md",
+    "Coding Notes/Automate the Boring Stuff/Chapter 7 - Regular Expression.md",
+    "Coding Notes/Automate the Boring Stuff/Basics Python.md",
     "Coding/Obsidian Markdown Cheat Sheet.md",
     "Poutine.md",
     "Untitled.md",
