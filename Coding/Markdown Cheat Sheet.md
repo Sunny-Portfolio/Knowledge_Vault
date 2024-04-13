@@ -1,6 +1,6 @@
 ### Editing
 |        Name         |                          Code                          |                         Demo                         | Shortcut |     |
-| :-----------------: | :----------------------------------------------------: | :--------------------------------------------------: | -------- | --- |
+|:-------------------:|:------------------------------------------------------:|:----------------------------------------------------:| -------- | --- |
 |      Header 1       |                          `#`                           |                                                      |          |     |
 |      Header 6       |                        `######`                        |                                                      |          |     |
 |        Tags         |                         `#tag`                         |                         #tag                         |          |     |
@@ -11,6 +11,7 @@
 |        Bold         |                       `__bold__`                       |                       __bold__                       | cmd b    |     |
 |     Italic Bold     |                  `___italic bold___`                   |                  ___italic bold___                   |          |     |
 |    Strikethrough    |                   `~~Striked out~~`                    |                   ~~Striked out~~                    |          |     |
+|      Highlight      |                    `==Highlight==`                     |                    ==Highlight==                     |          |     |
 |                     |                                                        |                                                      |          |     |
 |    Markdown Link    |         `[Link](Markdown%20Cheat%20Sheet.md)`          |         [Link](Markdown%20Cheat%20Sheet.md)          | cmd k    |     |
 |  Link Obsidian URI  | `[note](obsidian://open?vault=MainVault&file=Note.md)` | [note](obsidian://open?vault=MainVault&file=Note.md) |          |     |
@@ -36,7 +37,7 @@
 | Ext Img 1 Dimension |         \!\[image\|500](https://...image.jpg)          |                                                      |          |     |
 |                     |                                                        |                                                      |          |     |
 |       Quotes        |                    `> quote 12345`                     |                                                      |          |     |
-|                     |                                                        |                                                      |          |     |
+|      Seperator      |               `--- ___ *** - - - * * *`                |                                                      |          |     |
 |                     |                                                        |                                                      |          |     |
 
 ##### Footnote:

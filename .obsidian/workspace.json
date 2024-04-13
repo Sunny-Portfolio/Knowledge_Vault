@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "8d89def8592d51d7",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "5239a12c9f8b00d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Coding/Markdown Cheat Sheet.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "593fb7d8e96556d3",
         "type": "tabs",
         "children": [
@@ -34,6 +16,24 @@
                 "file": "Code Notes/Automate the Boring Stuff/Basics.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "8d89def8592d51d7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cdf7decbbac006ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Coding/Markdown Cheat Sheet.md",
+                "mode": "preview",
+                "source": true
               }
             }
           }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Code Notes/Automate the Boring Stuff/Basics.md",
+                "file": "Coding/Markdown Cheat Sheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Code Notes/Automate the Boring Stuff/Basics.md",
+                "file": "Coding/Markdown Cheat Sheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Code Notes/Automate the Boring Stuff/Basics.md"
+                "file": "Coding/Markdown Cheat Sheet.md"
               }
             }
           },
@@ -174,10 +174,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d241eff878769e07",
+  "active": "cdf7decbbac006ea",
   "lastOpenFiles": [
-    "Coding/Markdown Cheat Sheet.md",
     "Code Notes/Automate the Boring Stuff/Basics.md",
+    "Coding/Markdown Cheat Sheet.md",
     "Poutine.md",
     "Untitled.md",
     "link4.md",
