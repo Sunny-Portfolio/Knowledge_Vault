@@ -65,17 +65,20 @@ Adding `( )` to regex will create groups of the regex:
 >>> mo1.group()
 'Batman'
 ```
-# use a ( ) to match part of the string
+
+##### use a ( ) to match part of the string
+```py
 >>> batRegex = re.compile(r'Bat(man|mobile|copter|bat)')
 >>> mo = batRegex.search('Batmobile lost a wheel')
 >>> mo.group()
 'Batmobile'
 >>> mo.group(1)
 'mobile'
+```
 
-# use ? to match the preceding the ? optionally
-# the following will match either Batman or Batwoman
-# ? matches 0 or 1 of the preceding group
+##### use ? to match the preceding the ? optionally
+the following will match either Batman or Batwoman
+? matches 0 or 1 of the preceding group
 >>> batRegex = re.compile(r'Bat(wo)?man')
 >>> mo1 = batRegex.search('The Adventures of Batman')
 Pattern Matching with Regular Expressions   169
