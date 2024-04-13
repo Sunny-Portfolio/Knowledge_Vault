@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding Notes/Automate the Boring Stuff/Basics Python.md",
-                "mode": "preview",
+                "file": "Coding Notes/Automate the Boring Stuff/Install 3rd Party Modules.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding Notes/Automate the Boring Stuff/Basics Python.md",
+                "file": "Coding Notes/Automate the Boring Stuff/Install 3rd Party Modules.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding Notes/Automate the Boring Stuff/Basics Python.md",
+                "file": "Coding Notes/Automate the Boring Stuff/Install 3rd Party Modules.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coding Notes/Automate the Boring Stuff/Basics Python.md"
+                "file": "Coding Notes/Automate the Boring Stuff/Install 3rd Party Modules.md"
               }
             }
           },
@@ -158,8 +158,9 @@
   },
   "active": "cdf7decbbac006ea",
   "lastOpenFiles": [
-    "Coding/Obsidian Markdown Cheat Sheet.md",
     "Coding Notes/Automate the Boring Stuff/Basics Python.md",
+    "Coding Notes/Automate the Boring Stuff/Install 3rd Party Modules.md",
+    "Coding/Obsidian Markdown Cheat Sheet.md",
     "Poutine.md",
     "Untitled.md",
     "link4.md",
