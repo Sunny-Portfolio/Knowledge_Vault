@@ -1,4 +1,3 @@
-
 `\d`  stands for a digit character
 
 Matching phone number:
@@ -206,45 +205,59 @@ Match anything with .*
 ```
 
 .* is greedy by default, use ？ for non-greedy
+```py
 >>> nongreedyRegex = re.compile(r'<.*?>')
 >>> mo = nongreedyRegex.search('<To serve man> for dinner.>')
 >>> mo.group()
 '<To serve man>'
+```
 
+```py
 >>> greedyRegex = re.compile(r'<.*>')
 >>> mo = greedyRegex.search('<To serve man> for dinner.>')
 >>> mo.group()
 '<To serve man> for dinner.>'
+```
 
 Match .* dot character including newline \n
+```py
 >>> newlineRegex = re.compile('.*', re.DOTALL)
 >>> newlineRegex.search('Serve the public trust.\nProtect the innocent.
 \nUphold the law.').group()
 'Serve the public trust.\nProtect the innocent.\nUphold the law.'
+```
 
-----------------------------------
+---
 
-# To match exact text
+##### To match exact text
+```py
 >>> regex1 = re.compile('RoboCop')
+```
 
-# To match with case-insensitive
+##### To match with case-insensitive
+```py
 >>> regex1 = re.compile('RoboCop', re.IGNORECASE)
 >>> robocop.search('RoboCop is part man, part machine, all cop.').group()
 'RoboCop'
 >>> regex1 = re.compile('RoboCop', re.I)
 You can directly add .group() to the end to get the result
+```
 
-# sub() method to substitude text
+##### sub() method to substitude text
+```py
 >>> namesRegex = re.compile(r'Agent \w+')   # match 1 ore more of preceding
 >>> namesRegex.sub('CENSORED', 'Agent Alice gave the secret documents to Agent Bob.')
 'CENSORED gave the secret documents to CENSORED.'
+```
 
-# Match complex regexes with verbose mode
+##### Match complex regexes with verbose mode
 Instead of this:
-phoneRegex = re.compile(r'((\d{3}|\(\d{3}\))?(\s|-|\.)?\d{3}(\s|-|\.)\d{4}
-(\s*(ext|x|ext.)\s*\d{2,5})?)')
+```py
+phoneRegex = re.compile(r'((\d{3}|\(\d{3}\))?(\s|-|\.)?\d{3}(\s|-|\.)\d{4}(\s*(ext|x|ext.)\s*\d{2,5})?)')
+```
 
 You can write this:
+```py
 phoneRegex = re.compile(r'''(
 (\d{3}|\(\d{3}\))?              # area code
 (\s|-|\.)?                      # separator
@@ -253,11 +266,14 @@ phoneRegex = re.compile(r'''(
 \d{4}                           # last 4 digits
 (\s*(ext|x|ext.)\s*\d{2,5})?    # extension
 )''', re.VERBOSE)
+```
 
 
-# the re.compile() function can only take one value as second argument
-# get around this by using | pipeline character (bitwise or operator)
+the re.compile() function can only take one value as second argument
+get around this by using | pipeline character (bitwise or operator)
+```py
 >>> someRegexValue = re.compile('foo', re.IGNORECASE | re.DOTALL | re.VERBOSE)
+```
 
 
 
