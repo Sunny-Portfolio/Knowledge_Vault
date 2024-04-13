@@ -23,13 +23,13 @@ Any function that has no return statement returns None
 - When function returns, Python removes a frame object from the top of the stack, and move execution to the line number stored in it.
 
 If you need to modify a global variable inside a function
-```
+```py
 def spam():
     global eggs     // use global statement to declare eggs as global var
     eggs = 'spam'
 ```
 
-```
+```py
 import time
 time.sleep(o.1)     // pause for 1/10 sec
 ```
@@ -37,27 +37,27 @@ time.sleep(o.1)     // pause for 1/10 sec
 ### Ch 4 Lists
 ---
 You can add item to the list by doing this:
-```
+```py
 catname += 'Cracker'
 catname.append('Cracker')   // modified in place
 catname.insert(2, 'Meow')   // modified in place
 ```
 
 To iterate via a list over it's indexes, use this trick
-```
+```py
 for i in range(len(dogs))
     print('Dog name is: ' + dogs[i])
 ```
 
 Without index, it would be the typical
-```
+```py
 for dog in dogs
     print(dog)
 ```
 
 
 ##### Multiple assignment trick (tuple unpacking):
-```
+```py
 >>> cat = ['fat', 'gray', 'loud']
 >>> size = cat[0]
 >>> color = cat[1]
@@ -65,71 +65,81 @@ for dog in dogs
 ```
 
 ##### Tuple unpacking for the above statements
-```
+```py
 >>> cat = ['fat', 'gray', 'loud']
 >>> size, color, disposition = cat
 ```
 
 ##### enumerate() function
 Can be used instead of `range(len(someList))` in for loop
-```
+```py
 >>> supplies = ['pens', 'staplers', 'flamethrowers', 'binders']
 >>> for index, item in enumerate(supplies):
 ... print('Index ' + str(index) + ' in supplies is: ' + item)
 ```
 
 
-Random with List
-----------------
-# random.choice()
+##### Random with List
+`random.choice()`
+```py
 >>> import random
 >>> pets = ['Dog', 'Cat', 'Moose']
 >>> random.choice(pets)
+```
 
-# random.shuffle() reorder the list in place (not returning new list)
+##### random.shuffle() reorder the list in place (not returning new list)
+```py
 >>> import random
 >>> people = ['Alice', 'Bob', 'Carol', 'David']
 >>> random.shuffle(people)
 >>> people
 ['Carol', 'David', 'Alice', 'Bob']
+```
 
 
-String vs List:
-Both are similar but string is immutable and list is mutable.
+##### String vs List:
+- Both are similar but string is immutable and list is mutable.
 
-Tuple vs List:
-Both are similar, but tuple immutable, tuple use () instead of []
+##### Tuple vs List:
+- Both are similar, but tuple immutable, tuple use () instead of []
 
 You can cast tuple to list and vise versa, like str(4) or int(1.2)
+```py
 >>> tuple(['cat', 'dog', 5])
 ('cat', 'dog', 5)
 >>> list(('cat', 'dog', 5))
 ['cat', 'dog', 5]
 >>> list('hello')
 ['h', 'e', 'l', 'l', 'o']
+```
 
-
-id() - returns a numeric memory address of the value
+##### id()
+returns a numeric memory address of the value
+```py
 >>> id('Howdy') # The returned number will be different on your machine.
 44491136
+```
 
-The copy module's copy() and deepcopy():
+##### The copy module's `copy()` and `deepcopy()`:
+```py
 >>> import copy
 >>> spam = ['A', 'B', 'C', 'D']
 >>> cheese = copy.copy(spam)    # duplicate copy of a mutalbe collection
-If it is a list of list, then use copy.deepcopy()
+```
+If it is a list of list, then use `copy.deepcopy()`
 
+### Ch5 Dictionary
+---
+- key(), value(), items()
+- key(), value(), don't return true list. They return dict_values
 
-Ch5 Dictionary
-==============
-key(), value(), items()
-key(), value(), don't return true list. They return dict_values
-
+```py
 >>> spam = {'color': 'red', 'age': 42}
 >>> for v in spam.values():
 ... print(v)
+```
 
-# items() returns tuples of key and value
+##### items() returns tuples of key and value
 >>> for i in spam.items():
 ... print(i)
 ('color', 'red')
