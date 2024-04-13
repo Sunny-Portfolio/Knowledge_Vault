@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding/Markdown Cheat Sheet.md",
+                "file": "Coding Notes/Automate the Boring Stuff/Basics Python.md",
                 "mode": "preview",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding/Markdown Cheat Sheet.md",
+                "file": "Coding Notes/Automate the Boring Stuff/Basics Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding/Markdown Cheat Sheet.md",
+                "file": "Coding Notes/Automate the Boring Stuff/Basics Python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coding/Markdown Cheat Sheet.md"
+                "file": "Coding Notes/Automate the Boring Stuff/Basics Python.md"
               }
             }
           },
@@ -158,8 +158,8 @@
   },
   "active": "cdf7decbbac006ea",
   "lastOpenFiles": [
-    "Code Notes/Automate the Boring Stuff/Basics.md",
-    "Coding/Markdown Cheat Sheet.md",
+    "Coding/Obsidian Markdown Cheat Sheet.md",
+    "Coding Notes/Automate the Boring Stuff/Basics Python.md",
     "Poutine.md",
     "Untitled.md",
     "link4.md",
@@ -167,11 +167,11 @@
     "google.com.md",
     "2024-04-12.md",
     "basics.txt",
-    "Code Notes/Automate the Boring Stuff/basics.txt",
-    "Code Notes/Automate the Boring Stuff",
+    "Coding Notes/Automate the Boring Stuff/basics.txt",
+    "Coding Notes/Automate the Boring Stuff",
     "Untitled 1",
     "Code Notes/Untitled.md",
-    "Code Notes",
+    "Coding Notes",
     "Coding/Untitled",
     "Coding/Untitled.canvas",
     "Coding",

@@ -13,7 +13,7 @@
 |    Strikethrough    |                   `~~Striked out~~`                    |                   ~~Striked out~~                    |          |     |
 |      Highlight      |                    `==Highlight==`                     |                    ==Highlight==                     |          |     |
 |                     |                                                        |                                                      |          |     |
-|    Markdown Link    |         `[Link](Markdown%20Cheat%20Sheet.md)`          |         [Link](Markdown%20Cheat%20Sheet.md)          | cmd k    |     |
+|    Markdown Link    |         `[Link](Markdown%20Cheat%20Sheet.md)`          |         [Link](Obsidian%20Markdown%20Cheat%20Sheet.md)          | cmd k    |     |
 |  Link Obsidian URI  | `[note](obsidian://open?vault=MainVault&file=Note.md)` | [note](obsidian://open?vault=MainVault&file=Note.md) |          |     |
 |      Wiki Link      |                      `[[Link2]]`                       |                      [[Link2]]                       |          |     |
 |    External Link    |              `[Link](https://google.com)`              |              [Link](https://google.com)              |          |     |
