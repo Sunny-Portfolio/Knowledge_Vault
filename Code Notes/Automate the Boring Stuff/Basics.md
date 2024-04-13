@@ -1,24 +1,24 @@
-Ch2 Flow Control
+### Ch2 Flow Control
 
-import sys  // required by sys.exit()
-sys.exit()  // casuse program to terminate or exit before last instruction
+`import sys`  // required by sys.exit()
+`sys.exit()`  // cause program to terminate or exit before last instruction
 
-break       // break out of loop
-continue    // skip to next iteration
+`break`       // break out of loop
+`continue`    // skip to next iteration
 
-import random
-random.randint()
+`import random`
+`random.randint()`
 
-Ch3 Functions
-=============
-None    // value of null in Python
+### Ch3 Functions
+
+`None`    // value of null in Python
 print function returns None in Python
 Any function that has no return statement returns None
 
-print('Hello', end="")  // end keyword  
-print('cats', 'dogs', 'mice', sep=',')  // sep keyword
+`print('Hello', end="")`  // end keyword  
+`print('cats', 'dogs', 'mice', sep=',')`  // sep keyword
 
-Call stack
+#### Call stack
 ----------
 When a program calls a function, it creates a frame object on the top of the
 call stack. Frame objects store the line number of the original function call so
