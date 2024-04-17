@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding Notes/Automate the Boring Stuff/Chapter 7 - Regular Expression.md",
+                "file": "Coding Notes/Automate the Boring Stuff/Basics Python.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding Notes/Automate the Boring Stuff/Chapter 7 - Regular Expression.md",
+                "file": "Coding Notes/Automate the Boring Stuff/Basics Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding Notes/Automate the Boring Stuff/Chapter 7 - Regular Expression.md",
+                "file": "Coding Notes/Automate the Boring Stuff/Basics Python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coding Notes/Automate the Boring Stuff/Chapter 7 - Regular Expression.md"
+                "file": "Coding Notes/Automate the Boring Stuff/Basics Python.md"
               }
             }
           },
@@ -159,12 +159,12 @@
   },
   "active": "8df5596a151ece88",
   "lastOpenFiles": [
+    "Coding Notes/Automate the Boring Stuff/Chapter 7 - Regular Expression.md",
     "Coding Notes/Automate the Boring Stuff/Basics Python.md",
     "dictionary.md",
     "Coding/Obsidian Markdown Cheat Sheet.md",
     "Poutine.md",
     "Coding Notes/Automate the Boring Stuff/Chapter 9 - Reading and Writing Files.md",
-    "Coding Notes/Automate the Boring Stuff/Chapter 7 - Regular Expression.md",
     "Coding/Git Cheat Sheet.md",
     "Coding Notes/Automate the Boring Stuff/Chapter 8 - Input Validation.md",
     "Coding Notes/Automate the Boring Stuff/Install 3rd Party Modules.md",
