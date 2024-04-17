@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding Notes/Automate the Boring Stuff/Basics Python.md",
+                "file": "Coding Notes/Automate the Boring Stuff/Chapter 7 - Regular Expression.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "string",
+                "query": "regex",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding Notes/Automate the Boring Stuff/Basics Python.md",
+                "file": "Coding Notes/Automate the Boring Stuff/Chapter 7 - Regular Expression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding Notes/Automate the Boring Stuff/Basics Python.md",
+                "file": "Coding Notes/Automate the Boring Stuff/Chapter 7 - Regular Expression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coding Notes/Automate the Boring Stuff/Basics Python.md"
+                "file": "Coding Notes/Automate the Boring Stuff/Chapter 7 - Regular Expression.md"
               }
             }
           },
@@ -159,8 +159,8 @@
   },
   "active": "8df5596a151ece88",
   "lastOpenFiles": [
-    "Coding Notes/Automate the Boring Stuff/Chapter 7 - Regular Expression.md",
     "Coding Notes/Automate the Boring Stuff/Basics Python.md",
+    "Coding Notes/Automate the Boring Stuff/Chapter 7 - Regular Expression.md",
     "dictionary.md",
     "Coding/Obsidian Markdown Cheat Sheet.md",
     "Poutine.md",
