@@ -18,8 +18,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "65004229f7b7dca8",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "regex",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +74,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding Notes/Automate the Boring Stuff/Chapter 7 - Regular Expression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +110,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding Notes/Automate the Boring Stuff/Chapter 7 - Regular Expression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Coding Notes/Automate the Boring Stuff/Chapter 7 - Regular Expression.md"
-              }
+              "state": {}
             }
           },
           {
@@ -143,8 +147,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,10 +160,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8df5596a151ece88",
+  "active": "65004229f7b7dca8",
   "lastOpenFiles": [
-    "Coding Notes/Automate the Boring Stuff/Basics Python.md",
     "Coding Notes/Automate the Boring Stuff/Chapter 7 - Regular Expression.md",
+    "Coding Notes/Automate the Boring Stuff/Basics Python.md",
     "dictionary.md",
     "Coding/Obsidian Markdown Cheat Sheet.md",
     "Poutine.md",
