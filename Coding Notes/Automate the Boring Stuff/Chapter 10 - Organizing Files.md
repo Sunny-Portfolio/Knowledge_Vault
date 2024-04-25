@@ -1,4 +1,4 @@
-###### Example things to do with Python:
+##### Example things to do with Python:
 - Make copies of all PDF files in every sub folder of a folder
 - Removing leading zeros in filenames
 - Compressing files of multiple folders into ZIP
@@ -46,22 +46,33 @@ WindowsPath('C:/Users/Al/spam_backup')
 - `os.rmdir(path)` will delete the folder at path.
 	- This folder must be empty of any files or folders.
 - `shutil.rmtree(path)` will remove the folder at path, and all files and folders it contains will also be deleted.
+	- irreversibly delete files and folders
+	- Better way to use `send2trash` module
 
 The following will delete `*.rxt` files. (But safer to call with print first)
+Safer to to print filenames before delete operation:
 ```py
 import os
 from pathlib import Path
 for filename in Path.home().glob('*.rxt'):
-os.unlink(filename)
+#os.unlink(filename)
+print(filename)
 ```
 
-Safer to to print filenames before delete operation:
-import os
+##### send2trash Module
+Move files and folders to recycle bin instead of permanently deleting them. But it cannot pull files out of it.
 
-from pathlib import Path
+How to install:
+```py
+pip install --user send2trash
+```
 
-for filename in Path.home().glob('*.rxt'):
-
-#os.unlink(filename)
-
-print(filename)
+Example:
+```py
+>>> import send2trash
+>>> baconFile = open('bacon.txt', 'a') # creates the file
+>>> baconFile.write('Bacon is not a vegetable.')
+25
+>>> baconFile.close()
+>>> send2trash.send2trash('bacon.txt')
+```
