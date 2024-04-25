@@ -33,3 +33,35 @@ WindowsPath('C:/Users/Al/spam_backup')
 ```
 
 `shutil.move(source, destination)` will move the file or folder at the path source to the path destination and will return a string of the absolute path of the new location.
+```py
+>>> import shutil
+>>> shutil.move('C:\\bacon.txt', 'C:\\eggs')
+'C:\\eggs\\bacon.txt'
+>>> shutil.move('C:\\bacon.txt', 'C:\\eggs')  # if egg folder DNE,renamed eggs
+'C:\\eggs'
+```
+
+### Permanently Deleting Files and Folders
+- `os.unlink(path)` will delete the file at path.
+- `os.rmdir(path)` will delete the folder at path.
+	- This folder must be empty of any files or folders.
+- `shutil.rmtree(path)` will remove the folder at path, and all files and folders it contains will also be deleted.
+
+The following will delete `*.rxt` files. (But safer to call with print first)
+```py
+import os
+from pathlib import Path
+for filename in Path.home().glob('*.rxt'):
+os.unlink(filename)
+```
+
+Safer to to print filenames before delete operation:
+import os
+
+from pathlib import Path
+
+for filename in Path.home().glob('*.rxt'):
+
+#os.unlink(filename)
+
+print(filename)
