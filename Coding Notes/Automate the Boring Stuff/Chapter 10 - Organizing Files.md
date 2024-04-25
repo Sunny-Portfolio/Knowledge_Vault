@@ -22,5 +22,14 @@ WindowsPath('C:/Users/Al/some_folder/eggs2.txt')
 
 
 `shutil.copytree(source, destination)` will copy the folder at the path source, along with all of its files and subfolders, to the folder at the path destination.
-- Source and destination parameter are both strings
-- Returns string of the path of the copied folder
+- Source and destination parameter are both strings (or Path objects?)
+- Returns string of the path of the copied folder (or Path objects?)
+```py
+>>> import shutil, os
+>>> from pathlib import Path
+>>> p = Path.home()
+>>> shutil.copytree(p / 'spam', p / 'spam_backup')
+WindowsPath('C:/Users/Al/spam_backup')
+```
+
+`shutil.move(source, destination)` will move the file or folder at the path source to the path destination and will return a string of the absolute path of the new location.
