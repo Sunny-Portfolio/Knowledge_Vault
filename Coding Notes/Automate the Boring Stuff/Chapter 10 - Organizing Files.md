@@ -79,18 +79,40 @@ Example:
 
 ### Walking a Directory Tree
 Use `os.walk()` in for loop to walk a directory tree.
+```py
 import os
 
 for folderName, subfolders, filenames in os.walk('C:\\delicious'):
+	print('The current folder is ' + folderName)
+	for subfolder in subfolders:
+		print('SUBFOLDER OF ' + folderName + ': ' + subfolder)
+	for filename in filenames:
+		print('FILE INSIDE ' + folderName + ': '+ filename)
+	print('')
+```
 
-print('The current folder is ' + folderName)
+### Compressing Files with zipfile Module
+##### Reading ZIP Files
+You must create a ZipFile object to read the contents of a ZIP file. ZipFile objects are conceptually similar to the File objects.
 
-for subfolder in subfolders:
+Example:
+```py
+>>> import zipfile, os
+>>> from pathlib import Path
+>>> p = Path.home()
+>>> exampleZip = zipfile.ZipFile(p / 'example.zip')
+>>> exampleZip.namelist()
+['spam.txt', 'cats/', 'cats/catnames.txt', 'cats/zophie.jpg']
 
-print('SUBFOLDER OF ' + folderName + ': ' + subfolder)
+>>> spamInfo = exampleZip.getinfo('spam.txt')
+>>> spamInfo.file_size
+13908
 
-for filename in filenames:
+>>> spamInfo.compress_size
+3828
 
-print('FILE INSIDE ' + folderName + ': '+ filename)
+>>> f'Compressed file is {round(spamInfo.file_size / spamInfo.compress_size, 2)}x smaller!')
+'Compressed file is 3.63x smaller!'
 
-print('')
+>>> exampleZip.close()
+```
