@@ -116,3 +116,25 @@ Example:
 
 >>> exampleZip.close()
 ```
+
+##### Extracting ZIP Files
+Use `extractall()` from `ZipFile` object to extract all files and folders
+By default it extracts to current directory.
+Example 1 - Extract all files (to current dir):
+```py
+>>> import zipfile, os
+>>> from pathlib import Path
+>>> p = Path.home()
+>>> exampleZip = zipfile.ZipFile(p / 'example.zip')
+>>> exampleZip.extractall()  # Can pass a destination path
+>>> exampleZip.close()
+```
+
+Example 2 - Extract one file (to specified dir):
+```py
+>>> exampleZip.extract('spam.txt') # extract single file
+'C:\\spam.txt'
+>>> exampleZip.extract('spam.txt', 'C:\\some\\new\\folders') # Extract to dir
+'C:\\some\\new\\folders\\spam.txt'
+>>> exampleZip.close()
+```
