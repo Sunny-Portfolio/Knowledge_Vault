@@ -118,7 +118,7 @@ Example:
 ```
 
 ##### Extracting ZIP Files
-Use `extractall()` from `ZipFile` object to extract all files and folders
+Use `extractall()` from `ZipFile` object to extract all files and folders.
 By default it extracts to current directory.
 Example 1 - Extract all files (to current dir):
 ```py
@@ -132,9 +132,11 @@ Example 1 - Extract all files (to current dir):
 
 Example 2 - Extract one file (to specified dir):
 ```py
->>> exampleZip.extract('spam.txt') # extract single file
+>>> exampleZip.extract('spam.txt') # Extract single file to current dir
 'C:\\spam.txt'
 >>> exampleZip.extract('spam.txt', 'C:\\some\\new\\folders') # Extract to dir
 'C:\\some\\new\\folders\\spam.txt'
 >>> exampleZip.close()
 ```
+
+##### Creating and Adding to ZIP Files
