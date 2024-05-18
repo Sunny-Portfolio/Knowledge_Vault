@@ -104,7 +104,7 @@ Example:
 >>> exampleZip.namelist()
 ['spam.txt', 'cats/', 'cats/catnames.txt', 'cats/zophie.jpg']
 
->>> spamInfo = exampleZip.getinfo('spam.txt')
+>>> spamInfo = exampleZip.getinfo('spam.txt') # get info of the zip
 >>> spamInfo.file_size
 13908
 
@@ -125,7 +125,7 @@ Example 1 - Extract all files (to current dir):
 >>> import zipfile, os
 >>> from pathlib import Path
 >>> p = Path.home()
->>> exampleZip = zipfile.ZipFile(p / 'example.zip')
+>>> exampleZip = zipfile.ZipFile(p / 'example.zip') #create zipfile obj
 >>> exampleZip.extractall()  # Can pass a destination path
 >>> exampleZip.close()
 ```
@@ -140,3 +140,10 @@ Example 2 - Extract one file (to specified dir):
 ```
 
 ##### Creating and Adding to ZIP Files
+Pass 
+```
+>>> import zipfile
+>>> newZip = zipfile.ZipFile('new.zip', 'w') # pass w argument for write mode
+>>> newZip.write('spam.txt', compress_type=zipfile.ZIP_DEFLATED)
+>>> newZip.close()
+```
