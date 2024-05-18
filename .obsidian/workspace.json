@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "18c6de51de121577",
+        "id": "99717747a4cda969",
         "type": "tabs",
         "children": [
           {
-            "id": "8df5596a151ece88",
+            "id": "fe3029f70d03ecbd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding Notes/Automate the Boring Stuff/Chapter 10 - Organizing Files.md",
+                "file": "Coding Notes/Automate the Boring Stuff/Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "dd8cd52085d8c551",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding Notes/Automate the Boring Stuff/Chapter 10 - Organizing Files.md",
+                "file": "Coding Notes/Automate the Boring Stuff/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding Notes/Automate the Boring Stuff/Chapter 10 - Organizing Files.md",
+                "file": "Coding Notes/Automate the Boring Stuff/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coding Notes/Automate the Boring Stuff/Chapter 10 - Organizing Files.md"
+                "file": "Coding Notes/Automate the Boring Stuff/Untitled.md"
               }
             }
           },
@@ -157,10 +156,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8df5596a151ece88",
+  "active": "fe3029f70d03ecbd",
   "lastOpenFiles": [
-    "Coding Notes/Automate the Boring Stuff/Chapter 9 - Reading and Writing Files.md",
+    "Coding Notes/Automate the Boring Stuff/Untitled.md",
+    "Coding Notes/Automate the Boring Stuff/Untitled",
     "Coding Notes/Automate the Boring Stuff/Chapter 10 - Organizing Files.md",
+    "Coding Notes/Automate the Boring Stuff/Chapter 9 - Reading and Writing Files.md",
     "Coding Notes/Automate the Boring Stuff/Chapter 7 - Regular Expression.md",
     "Untitled.md",
     "Coding Notes/Automate the Boring Stuff/Basics Python.md",
