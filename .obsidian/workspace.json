@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding Notes/Automate the Boring Stuff/Untitled.md",
+                "file": "Coding Notes/Automate the Boring Stuff/Chapter 11 - Debugging.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "dd8cd52085d8c551",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding Notes/Automate the Boring Stuff/Untitled.md",
+                "file": "Coding Notes/Automate the Boring Stuff/Chapter 11 - Debugging.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding Notes/Automate the Boring Stuff/Untitled.md",
+                "file": "Coding Notes/Automate the Boring Stuff/Chapter 11 - Debugging.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coding Notes/Automate the Boring Stuff/Untitled.md"
+                "file": "Coding Notes/Automate the Boring Stuff/Chapter 11 - Debugging.md"
               }
             }
           },
@@ -158,13 +159,13 @@
   },
   "active": "fe3029f70d03ecbd",
   "lastOpenFiles": [
-    "Coding Notes/Automate the Boring Stuff/Untitled.md",
+    "Coding Notes/Automate the Boring Stuff/Chapter 1-6 - Basics Python.md",
+    "Coding Notes/Automate the Boring Stuff/Chapter 11 - Debugging.md",
     "Coding Notes/Automate the Boring Stuff/Untitled",
     "Coding Notes/Automate the Boring Stuff/Chapter 10 - Organizing Files.md",
     "Coding Notes/Automate the Boring Stuff/Chapter 9 - Reading and Writing Files.md",
     "Coding Notes/Automate the Boring Stuff/Chapter 7 - Regular Expression.md",
     "Untitled.md",
-    "Coding Notes/Automate the Boring Stuff/Basics Python.md",
     "dictionary.md",
     "Coding/Obsidian Markdown Cheat Sheet.md",
     "Poutine.md",
