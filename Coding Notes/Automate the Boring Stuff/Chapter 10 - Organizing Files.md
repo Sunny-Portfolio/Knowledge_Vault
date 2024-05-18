@@ -140,10 +140,14 @@ Example 2 - Extract one file (to specified dir):
 ```
 
 ##### Creating and Adding to ZIP Files
-Pass 
-```
+Pass a path to the `write()` method of a ZipFile object to compress the file at that path. First argument is string of filenames to add. Second argument is the compression type.
+```py
 >>> import zipfile
 >>> newZip = zipfile.ZipFile('new.zip', 'w') # pass w argument for write mode
 >>> newZip.write('spam.txt', compress_type=zipfile.ZIP_DEFLATED)
 >>> newZip.close()
+```
+Write mode will overwrite all existing contents of a ZIP file. To add file to an existing ZIP file use append mode instead:
+```py
+>>> newZip = zipfile.ZipFile('new.zip', 'a') # append mode
 ```
