@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding Notes/Automate the Boring Stuff/Running Programs.md",
+                "file": "Coding Notes/Automate the Boring Stuff/Chapter 12 - Web Scraping.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding Notes/Automate the Boring Stuff/Running Programs.md",
+                "file": "Coding Notes/Automate the Boring Stuff/Chapter 12 - Web Scraping.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding Notes/Automate the Boring Stuff/Running Programs.md",
+                "file": "Coding Notes/Automate the Boring Stuff/Chapter 12 - Web Scraping.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coding Notes/Automate the Boring Stuff/Running Programs.md"
+                "file": "Coding Notes/Automate the Boring Stuff/Chapter 12 - Web Scraping.md"
               }
             }
           },
@@ -171,8 +171,8 @@
   },
   "active": "fe3029f70d03ecbd",
   "lastOpenFiles": [
-    "Coding Notes/Automate the Boring Stuff/Chapter 12 - Web Scraping.md",
     "Coding Notes/Automate the Boring Stuff/Running Programs.md",
+    "Coding Notes/Automate the Boring Stuff/Chapter 12 - Web Scraping.md",
     "Coding/Obsidian Markdown Cheat Sheet.md",
     "\"Running.md",
     "Running.md",

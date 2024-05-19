@@ -18,7 +18,7 @@ python3 /path/to/your/pythonScript.py
 3. Done. You can use Spotlight to run your Python script
 
 ##### Run Python Programs with Assertions Disabled
-This will run an optimized version of your program that skips as
+This will run an optimized version of your program that skips assertion checks.
 ```sh
 python3 -0 test.py
 ```
