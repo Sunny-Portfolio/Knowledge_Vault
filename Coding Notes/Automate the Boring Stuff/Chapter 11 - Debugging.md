@@ -127,3 +127,9 @@ Setting `basicConfig()` to `logging.ERROR` will show only ERROR and CRITICAL mes
 ```
 
 ##### Logging to file
+You can write the log to a text file:
+```py
+import logging
+logging.basicConfig(filename='myProgramLog.txt', level=logging.DEBUG, format='
+%(asctime)s - %(levelname)s - %(message)s')
+```
