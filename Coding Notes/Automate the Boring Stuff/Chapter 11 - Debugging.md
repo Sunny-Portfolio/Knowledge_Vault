@@ -43,4 +43,19 @@ except:
 
 
 ### Assertions
-Assertions is a sanity check to make sure your code isn't doing something obviously wrong.
+Assertions is a sanity check to make sure your code isn't doing something obviously wrong. If fails, then AssertionError exception is raised.
+```py
+>>> ages = [26, 57, 92, 54, 22, 15, 17, 80, 47, 73]
+>>> ages.reverse()
+>>> ages
+[73, 47, 80, 17, 15, 22, 54, 92, 57, 26]
+>>> assert ages[0] <= ages[-1] # Assert that the first age is <= the last age.
+Traceback (most recent call last):
+File "<stdin>", line 1, in <module>
+AssertionError
+```
+
+- Unlike exceptions, your code should not handle assert statements with try and except; if an assert fails, your program should crash.
+- Assertions are for programmer errors, not user errors.
+	- A finished program should never have assertion errors.
+- Run a Python script with `python -O myscript.py` instead of `python myscript.py` will skip assert statements.
