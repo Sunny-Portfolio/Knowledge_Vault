@@ -16,10 +16,19 @@ To launch a new browser and load website:
 You will need to know how to [run a program](Running%20Programs.md) on your OS's terminal.
 
 ##### Get command line arguments
-`sys.argv` stores a list of the program's filename and command line arguments. If it has more than just the filename, 
+`sys.argv` stores a list of the program's filename and command line arguments. If it contains more than just the filename, then the length is > 1.
 ```py
 import webbrowser, sys
 if len(sys.argv) > 1:
 	# Get address from command line.
-	address = ' '.join(sys.argv[1:])
+	address = ' '.join(sys.argv[1:]) # joins all argu to a string
+else:
+	# Get address from clipboard.
+	address = pyperclip.paste()
+webbrowser.open('https://www.google.com/maps/place/' + address)
 ```
+
+### Downloading Files from the Web with requests Module
+Allows you to easily download files from the web without having to worry about complicated issues such as network errors, connection problems, and data compression.
+
+Does not come with Python, install with `pip install --user requests`.
