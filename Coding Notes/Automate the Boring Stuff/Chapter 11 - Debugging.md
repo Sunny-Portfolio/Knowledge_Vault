@@ -64,5 +64,35 @@ AssertionError
 To enable Python's logging mode:
 ```py
 import logging
-logging.basicConfig(level=logging.DEBUG, format=' %(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.debug('Start of program')
+
+def factorial(n):
+	logging.debug('Start of factorial(%s%%)' % (n))
+	total = 1
+	for i in range(n + 1):
+		total *= i
+		logging.debug('i is ' + str(i) + ', total is ' + str(total))
+	logging.debug('End of factorial(%s%%)' % (n))
+	return total
+print(factorial(5))
+logging.debug('End of program')
 ```
+When Python logs an event, it creates a *LogRecord object* that hold info of the event. The logging module’s `basicConfig()` function lets you specify what details about the *LogRecord object* you want to see and how you want those details displayed.
+```py
+2019-05-23 16:20:12,664 - DEBUG - Start of program
+2019-05-23 16:20:12,664 - DEBUG - Start of factorial(5)
+2019-05-23 16:20:12,665 - DEBUG - i is 0, total is 0
+2019-05-23 16:20:12,668 - DEBUG - i is 1, total is 0
+2019-05-23 16:20:12,670 - DEBUG - i is 2, total is 0
+2019-05-23 16:20:12,673 - DEBUG - i is 3, total is 0
+2019-05-23 16:20:12,675 - DEBUG - i is 4, total is 0
+2019-05-23 16:20:12,678 - DEBUG - i is 5, total is 0
+2019-05-23 16:20:12,680 - DEBUG - End of factorial(5)
+0
+2019-05-23 16:20:12,684 - DEBUG - End of program
+```
+
+##### Logging vs Print for debugging
+print()
+- easy to
