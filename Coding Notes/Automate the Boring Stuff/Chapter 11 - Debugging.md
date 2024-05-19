@@ -147,4 +147,8 @@ logging.basicConfig(filename='myProgramLog.txt', level=logging.DEBUG, format='
 - execute lines of code at full speed until it returns from the current function.
 - Click to *step out* of the current function call.
 ##### Stop
-- 
+- Click if you want to stop debugging entirely.
+
+### Breakpoint
+You can set a breakpoint on a specific line of code to force the debugger to pause.
+E.g. You have a loop that runs a 1000 times and you want to pause when it is half done.
