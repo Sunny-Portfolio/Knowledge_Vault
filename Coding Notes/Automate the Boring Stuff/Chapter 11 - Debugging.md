@@ -133,3 +133,18 @@ import logging
 logging.basicConfig(filename='myProgramLog.txt', level=logging.DEBUG, format='
 %(asctime)s - %(levelname)s - %(message)s')
 ```
+
+### Debugger
+##### Continue
+- execute normally until it terminates or reaches a breakpoint.
+##### Step In
+- execute next line of code and then pause again.
+- If next line is a function call, debugger will *step into* the function to first line of function.
+##### Step Over
+- execute next line of code similar to *step in*.
+- If next line is a function call, *step over* to execute function at normal speed and pause when function returns.
+##### Step Out
+- execute lines of code at full speed until it returns from the current function.
+- Click to *step out* of the current function call.
+##### Stop
+- 
