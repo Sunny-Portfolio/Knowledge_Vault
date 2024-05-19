@@ -12,3 +12,11 @@ To launch a new browser and load website:
 >>> import webbrowser
 >>> webbrowser.open('https://google.com/')
 ```
+
+### Running programs with arguments
+
+##### Run programs from terminal
+When entering a command in terminal, the terminal checks for a program with that name in the current folder. If it does't find it, it will check the folders listed in the PATH environment variable.
+To check on Windows: `echo %PATH%`
+To check 
+
