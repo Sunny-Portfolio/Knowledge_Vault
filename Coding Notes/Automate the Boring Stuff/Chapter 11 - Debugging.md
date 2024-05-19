@@ -101,12 +101,17 @@ When Python logs an event, it creates a *LogRecord object* that hold info of the
 - you can simply disable all logs with `logging.disable(logging.CRITICAL)`
 
 ##### Logging Levels
-Logging levels provide a way to categorize your log messages by importance.
+Logging levels provide a way to categorize your log messages by importance. Allowing you to change what priority of logging message you want to see in the log.
 
-There are five logging levels,
+There are five logging levels:
 
-| Level | Logging function | Description                                               |
-| ----- | ---------------- | --------------------------------------------------------- |
-| DEBUG | logging.debug()  | Lowest level. Used for small details that you care about. |
-| INFO  | logging.info()   |                                                           |
-|       |                  |                                                           |
+| **Level** | **Logging function** | **Description**                                                  |
+| --------- | -------------------- | ---------------------------------------------------------------- |
+| DEBUG     | logging.debug()      | Lowest level. Used for small details that you care about.        |
+| INFO      | logging.info()       | Used to record general events info.                              |
+| WARNING   | logging.warning()    | Used to indicate a potential problem.                            |
+| ERROR     | logging.error()      | Used to record error that cause program to fail doing something. |
+| CRITICAL  | logging.critical()   | Highest level. Used to indicate fatal error.                     |
+Setting
+
+
