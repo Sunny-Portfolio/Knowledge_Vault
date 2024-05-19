@@ -94,5 +94,19 @@ When Python logs an event, it creates a *LogRecord object* that hold info of the
 ```
 
 ##### Logging vs Print for debugging
-print()
-- easy to
+**print()**
+- time consuming to remove all the print statements
+- may accidentally remove print() that you actually need
+**logging()**
+- you can simply disable all logs with `logging.disable(logging.CRITICAL)`
+
+##### Logging Levels
+Logging levels provide a way to categorize your log messages by importance.
+
+There are five logging levels,
+
+| Level | Logging function | Description                                               |
+| ----- | ---------------- | --------------------------------------------------------- |
+| DEBUG | logging.debug()  | Lowest level. Used for small details that you care about. |
+| INFO  | logging.info()   |                                                           |
+|       |                  |                                                           |
