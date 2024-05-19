@@ -112,6 +112,18 @@ There are five logging levels:
 | WARNING   | logging.warning()    | Used to indicate a potential problem.                            |
 | ERROR     | logging.error()      | Used to record error that cause program to fail doing something. |
 | CRITICAL  | logging.critical()   | Highest level. Used to indicate fatal error.                     |
-Setting
+Setting `basicConfig()` to `logging.ERROR` will show only ERROR and CRITICAL messages.
 
+##### Disabling Logging
+`logging.disable(logging.WARNING)` will suppress all log messages at that level or lower.
+```py
+>>> import logging
+>>> logging.basicConfig(level=logging.INFO, format=' %(asctime)s - %(levelname)s - %(message)s')
+>>> logging.critical('Critical error! Critical error!')
+2019-05-22 11:10:48,054 - CRITICAL - Critical error! Critical error!
+>>> logging.disable(logging.CRITICAL)  # disable all logging after this
+>>> logging.critical('Critical error! Critical error!')
+>>> logging.error('Error! Error!')
+```
 
+##### Logging to file
