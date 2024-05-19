@@ -59,3 +59,10 @@ AssertionError
 - Assertions are for programmer errors, not user errors.
 	- A finished program should never have assertion errors.
 - Run a Python script with `python -O myscript.py` instead of `python myscript.py` will skip assert statements.
+
+### Logging
+To enable Python's logging mode:
+```py
+import logging
+logging.basicConfig(level=logging.DEBUG, format=' %(asctime)s - %(levelname)s - %(message)s')
+```
