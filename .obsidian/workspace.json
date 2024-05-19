@@ -81,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "dd8cd52085d8c551",
@@ -170,8 +171,9 @@
   },
   "active": "fe3029f70d03ecbd",
   "lastOpenFiles": [
-    "Coding Notes/Automate the Boring Stuff/Running Programs.md",
+    "Coding Notes/Automate the Boring Stuff/Install 3rd Party Modules.md",
     "Coding Notes/Automate the Boring Stuff/Chapter 12 - Web Scraping.md",
+    "Coding Notes/Automate the Boring Stuff/Running Programs.md",
     "Coding/Obsidian Markdown Cheat Sheet.md",
     "\"Running.md",
     "Running.md",
@@ -186,7 +188,6 @@
     "Poutine.md",
     "Coding/Git Cheat Sheet.md",
     "Coding Notes/Automate the Boring Stuff/Chapter 8 - Input Validation.md",
-    "Coding Notes/Automate the Boring Stuff/Install 3rd Party Modules.md",
     "link4.md",
     "coding.md",
     "google.com.md",

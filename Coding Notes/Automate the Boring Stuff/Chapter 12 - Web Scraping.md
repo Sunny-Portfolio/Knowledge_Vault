@@ -31,4 +31,21 @@ webbrowser.open('https://www.google.com/maps/place/' + address)
 ### Downloading Files from the Web with requests Module
 Allows you to easily download files from the web without having to worry about complicated issues such as network errors, connection problems, and data compression.
 
-Does not come with Python, install with `pip install --user requests`.
+Does not come with Python, install with `pip install --user requests`. Refer to [Install 3rd Party Modules](Install%203rd%20Party%20Modules.md).
+
+##### Download web page with requests.get()
+This function takes a URL string to download:
+```py
+>>> import requests
+>>> res = requests.get('https://automatetheboringstuff.com/files/rj.txt')
+>>> type(res)
+<class 'requests.models.Response'>
+>>> res.status_code == requests.codes.ok # check status code
+True
+>>> len(res.text)
+178981
+>>> print(res.text[:250])
+```
+Here is a [list](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes) of HTTP status codes. 200 is "OK". 404 is "Not Found".
+
+##### Checking for Errors (Response Object)
