@@ -38,7 +38,7 @@ This function takes a URL string to download:
 ```py
 >>> import requests
 >>> res = requests.get('https://automatetheboringstuff.com/files/rj.txt')
->>> type(res)
+>>> type(res) # returns a Response object
 <class 'requests.models.Response'>
 >>> res.status_code == requests.codes.ok # check status code
 True
@@ -49,3 +49,12 @@ True
 Here is a [list](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes) of HTTP status codes. 200 is "OK". 404 is "Not Found".
 
 ##### Checking for Errors (Response Object)
+Simpler way than checking Response object status code is to call `raise_for_status()`. You can wrap with `try` and `except` to handle the error.
+```py
+import requests
+res = requests.get('https://google.com/page_that_does_not_exist')
+try:
+	res.raise_for_status()
+except Exception as exc:
+	print('There was a problem: %s' % (exc))
+```
