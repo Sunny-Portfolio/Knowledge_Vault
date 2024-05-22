@@ -173,7 +173,7 @@ Use `get()` method for Tag objects to access attribute values from an element.
 >>> spanElem = soup.select('span')[0]
 >>> str(spanElem)
 '<span id="author">Al Sweigart</span>'
->>> spanElem.get('id')  # get
+>>> spanElem.get('id')  # get the id
 'author'
 >>> spanElem.get('some_nonexistent_addr') == None
 True
