@@ -84,3 +84,11 @@ pip install --user beautifulsoup4
 ```
 
 ##### Creating a BeautifulSoup Object from HTML
+```py
+>>> import requests, bs4
+>>> res = requests.get('https://nostarch.com')
+>>> res.raise_for_status()
+>>> noStarchSoup = bs4.BeautifulSoup(res.text, 'html.parser')
+>>> type(noStarchSoup)
+<class 'bs4.BeautifulSoup'>
+```
