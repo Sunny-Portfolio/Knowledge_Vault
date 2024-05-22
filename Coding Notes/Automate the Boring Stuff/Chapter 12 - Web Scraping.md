@@ -146,3 +146,37 @@ E.g. `soup.select('p #author')` will match any element that has an id attribute 
 >>> elems[0].attrs
 {'id': 'author'}
 ```
+
+To pull all the `<p>` elements from the Beautiful Soup object:
+```py
+>>> pElems = exampleSoup.select('p')
+>>> str(pElems[0])
+'<p>Download my <strong>Python</strong> book from <a href="https://
+inventwithpython.com">my website</a>.</p>'
+>>> pElems[0].getText()
+'Download my Python book from my website.'
+>>> str(pElems[1])
+'<p class="slogan">Learn Python the easy way!</p>'
+>>> pElems[1].getText()
+'Learn Python the easy way!'
+>>> str(pElems[2])
+'<p>By <span id="author">Al Sweigart</span></p>'
+>>> pElems[2].getText()
+'By Al Sweigart'
+```
+
+##### Getting Data from an Element's Attributes
+Use `get()` method for Tag objects to access attribute values from an element.
+```py
+>>> import bs4
+>>> soup = bs4.BeautifulSoup(open('example.html'), 'html.parser')
+>>> spanElem = soup.select('span')[0]
+>>> str(spanElem)
+'<span id="author">Al Sweigart</span>'
+>>> spanElem.get('id')  # get
+'author'
+>>> spanElem.get('some_nonexistent_addr') == None
+True
+>>> spanElem.attrs
+{'id': 'author'}
+```
