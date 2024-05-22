@@ -110,3 +110,18 @@ Load HTML file from your drive:
 ```sh
 pip install --user lxml
 ```
+
+##### Finding an Element with `select()` Method
+```py
+soup.select('div') # All elements named <div>
+soup.select('#author') # The element with an id attribute of author
+soup.select('.notice') # All elements that use a CSS class attribute named notice
+soup.select('div span') # All elements named <span> that are within <div>
+soup.select('div > span') # All elements named <span> that directly within
+						  # <div>, with no other element in between
+soup.select('input[name]') # All elements named <input> that have a name attr
+soup.select('input[type="button"]') # All elements named <input> that have an
+									# attribute named type with value button
+```
+
+E.g. `soup.select('p #author')` will match any element that has an id attribute of author, as long as it is also inside a `<p>` element.
