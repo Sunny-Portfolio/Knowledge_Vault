@@ -73,5 +73,14 @@ You can save web page to a file with standard `open()` function and `write()` me
 78981
 >>> playFile.close()
 ```
-`iter_content()`returns "chunks" of the content on each iteration via the loop. 
-pass a number as the number of byte in chunk 
+- `iter_content()`returns "chunks" of the content on each iteration via the loop. 
+- pass a number as the number of byte in chunk size to `iter_content()`
+
+---
+### Parsing HTML the bs4 (Beautiful Soup 4) Module
+Install bs4:
+```sh
+pip install --user beautifulsoup4
+```
+
+##### Creating a BeautifulSoup Object from HTML
