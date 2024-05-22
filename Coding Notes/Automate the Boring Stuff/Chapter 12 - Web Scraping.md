@@ -125,3 +125,24 @@ soup.select('input[type="button"]') # All elements named <input> that have an
 ```
 
 E.g. `soup.select('p #author')` will match any element that has an id attribute of author, as long as it is also inside a `<p>` element.
+
+- `select()` method returns a list of Tag objects. The list will contain one Tag object for every match in BeautifulSoup object's HTML.
+- Tag values can be passed to the `str()` function to show the HTML tags they represent.
+```py
+>>> import bs4
+>>> exampleFile = open('example.html')
+>>> exampleSoup = bs4.BeautifulSoup(exampleFile.read(), 'html.parser')
+>>> elems = exampleSoup.select('#author')
+>>> type(elems) # elems is a list of Tag objects.
+<class 'list'>
+>>> len(elems)
+1
+>>> type(elems[0])
+<class 'bs4.element.Tag'>
+>>> str(elems[0]) # The Tag object as a string.
+'<span id="author">Al Sweigart</span>'
+>>> elems[0].getText()
+'Al Sweigart'
+>>> elems[0].attrs
+{'id': 'author'}
+```
