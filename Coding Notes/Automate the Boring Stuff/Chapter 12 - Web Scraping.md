@@ -78,12 +78,17 @@ You can save web page to a file with standard `open()` function and `write()` me
 
 ---
 ### Parsing HTML the bs4 (Beautiful Soup 4) Module
+Beautiful Soup is a module for extracting information from an HTML page.
+
 Install bs4:
 ```sh
 pip install --user beautifulsoup4
 ```
 
 ##### Creating a BeautifulSoup Object from HTML
+You can use HTML web page from internet or locally stored HTML file.
+
+Use `requests.get()` to download web page:
 ```py
 >>> import requests, bs4
 >>> res = requests.get('https://nostarch.com')
@@ -91,4 +96,17 @@ pip install --user beautifulsoup4
 >>> noStarchSoup = bs4.BeautifulSoup(res.text, 'html.parser')
 >>> type(noStarchSoup)
 <class 'bs4.BeautifulSoup'>
+```
+
+Load HTML file from your drive:
+```py
+>>> exampleFile = open('example.html')
+>>> exampleSoup = bs4.BeautifulSoup(exampleFile, 'html.parser')
+>>> type(exampleSoup)
+<class 'bs4.BeautifulSoup'>
+```
+
+`html.parser` comes with Python, but you can use the faster `lxml` parser if you have it.
+```sh
+pip install --user lxml
 ```
