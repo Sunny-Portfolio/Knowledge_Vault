@@ -58,3 +58,20 @@ try:
 except Exception as exc:
 	print('There was a problem: %s' % (exc))
 ```
+
+##### Saving Downloaded Files
+You can save web page to a file with standard `open()` function and `write()` method, but you need to write binary data instead of text to maintain the *Unicode encoding* of the text.
+```py
+>>> import requests
+>>> res = requests.get('https://automatetheboringstuff.com/files/rj.txt')
+>>> res.raise_for_status()
+>>> playFile = open('RomeoAndJuliet.txt', 'wb')  # pass 'wb' to write binary
+>>> for chunk in res.iter_content(100000):  # pass 10000 as chunk size in bytes
+		playFile.write(chunk)
+		
+100000
+78981
+>>> playFile.close()
+```
+`iter_content()`returns "chunks" of the content on each iteration via the loop. 
+pass a number as the number of byte in chunk 
