@@ -184,3 +184,22 @@ True
 ---
 ### Controlling the Browser with selenium Module
 Selenium module lets Python directly control the browser to click links and fill in login information. It launches a browser and is slower and harder to run in background than simply downloading from web. It is less likely to be refused by website to scrape information.
+
+*User-agent* string is used to identifies the web browser you are using. For requests module, it is 'python-requests/2.21.0', which gives away to the website that you maybe scraping the website. Selenium uses the same user-agent as your browser, and it has the same traffic patterns. However, it can still be detected by websites.
+
+##### Starting a selenium-Controlled Browser
+To install selenium:
+```sh
+pip install --user selenium
+```
+
+Importing is a bit different. Instead of `import selenium`, you need `from selenium import webdriver`.
+
+To launch browser:
+```py
+>>> from selenium import webdriver
+>>> browser = webdriver.Firefox()
+>>> type(browser)
+<class 'selenium.webdriver.firefox.webdriver.WebD
+```
+
