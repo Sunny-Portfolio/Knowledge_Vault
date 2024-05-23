@@ -212,13 +212,40 @@ Webdriver objects has two main types of methods for finding elements.
 1. `find_element_*` returns the first match as WebElement object. 
 2. `find_elements_*` returns a list of WebElement objects.
 
-| Method Name                                      | WebElement object/list returned                                                                |
-| ------------------------------------------------ | ---------------------------------------------------------------------------------------------- |
-| browser.find_elements_by_class_name(name)        | Elements that use the CSS class name                                                           |
-| browser.find_elements_by_css_selector(selector)  | Elements that match the CSS selector                                                           |
-| browser.find_elements_by_id(id)                  | Elements with a matching id attribute value                                                    |
+| Method Name                                      | WebElement object/list returned                                                                 |
+| ------------------------------------------------ | ----------------------------------------------------------------------------------------------- |
+| browser.find_elements_by_class_name(name)        | Elements that use the CSS class name                                                            |
+| browser.find_elements_by_css_selector(selector)  | Elements that match the CSS selector                                                            |
+| browser.find_elements_by_id(id)                  | Elements with a matching id attribute value                                                     |
 | browser.find_elements_by_link_text(text)         | \<a> elements that completely match the text provided                                           |
 | browser.find_elements_by_partial_link_text(text) | \<a> elements that contain the text provided                                                    |
-| browser.find_elements_by_name(name)              | Elements with a matching name attribute value                                                  |
+| browser.find_elements_by_name(name)              | Elements with a matching name attribute value                                                   |
 | browser.find_elements_by_tag_name(name)          | Elements with a matching tag name (case-insensitive; an \<a> element is matched by 'a' and 'A') |
+The arguments to all the methods are case sensitive, except for the `find_elements_by_tag_name()` methods.
+
+If no element match is found, selenium module raises NoSuchElement exception. You may use `try` and `except` to handle it. 
+
+
+WebElement Attributes and Methods:
+
+| Attribute or method | Description                                                                                             |
+| ------------------- | ------------------------------------------------------------------------------------------------------- |
+| tag_name            | The tag name, such as 'a' for an \<a> element                                                           |
+| get_attribute(name) | The value for the element’s name attribute                                                              |
+| text                | The text within the element, such as 'hello' in \<span>hello\</span>                                    |
+| clear()             | For text field or text area elements, clears the text typed into it                                     |
+| is_displayed()      | Returns True if the element is visible; otherwise returns False                                         |
+| is_enabled()        | For input elements, returns True if the element is enabled; otherwise returns False                     |
+| is_selected()       | For checkbox or radio button elements, returns True if the element is selected; otherwise returns False |
+| location            | A dictionary with keys 'x' and 'y' for the position of the element in the page                          |
+
+
+
+
+
+ 
+
+
+
+ 
 
