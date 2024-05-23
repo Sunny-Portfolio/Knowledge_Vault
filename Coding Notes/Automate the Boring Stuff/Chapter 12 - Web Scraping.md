@@ -208,4 +208,17 @@ Calling `browser.get('https://google.com')` directs the browser to the website.
 You can install webdriver for other web browsers.
 
 ##### Finding elements on the Page
-Webdriver objects has two main types of methods for finding elements. `find_element_*` returns the first match as WebElement object. `find_elements_*` returns a list of WebElement objects.
+Webdriver objects has two main types of methods for finding elements. 
+1. `find_element_*` returns the first match as WebElement object. 
+2. `find_elements_*` returns a list of WebElement objects.
+
+| Method Name                                      | WebElement object/list returned                                                                |
+| ------------------------------------------------ | ---------------------------------------------------------------------------------------------- |
+| browser.find_elements_by_class_name(name)        | Elements that use the CSS class name                                                           |
+| browser.find_elements_by_css_selector(selector)  | Elements that match the CSS selector                                                           |
+| browser.find_elements_by_id(id)                  | Elements with a matching id attribute value                                                    |
+| browser.find_elements_by_link_text(text)         | \<a> elements that completely match the text provided                                           |
+| browser.find_elements_by_partial_link_text(text) | \<a> elements that contain the text provided                                                    |
+| browser.find_elements_by_name(name)              | Elements with a matching name attribute value                                                  |
+| browser.find_elements_by_tag_name(name)          | Elements with a matching tag name (case-insensitive; an \<a> element is matched by 'a' and 'A') |
+
