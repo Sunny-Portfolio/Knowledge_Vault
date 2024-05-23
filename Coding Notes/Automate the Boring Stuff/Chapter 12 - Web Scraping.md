@@ -180,3 +180,7 @@ True
 >>> spanElem.attrs
 {'id': 'author'}
 ```
+
+---
+### Controlling the Browser with selenium Module
+
