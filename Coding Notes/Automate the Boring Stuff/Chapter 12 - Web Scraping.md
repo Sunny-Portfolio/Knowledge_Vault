@@ -183,4 +183,4 @@ True
 
 ---
 ### Controlling the Browser with selenium Module
-
+Selenium module lets Python directly control the browser to click links and fill in login information. It launches a browser and is slower and harder to run in background than simply downloading from web. It is less likely to be refused by website to scrape information.
