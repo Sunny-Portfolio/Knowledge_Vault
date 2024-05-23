@@ -61,7 +61,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -77,12 +77,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "dd8cd52085d8c551",
@@ -169,7 +169,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fe3029f70d03ecbd",
+  "active": "32dbe4740fa11d09",
   "lastOpenFiles": [
     "Coding Notes/Automate the Boring Stuff/Install 3rd Party Modules.md",
     "Coding Notes/Automate the Boring Stuff/Chapter 12 - Web Scraping.md",
