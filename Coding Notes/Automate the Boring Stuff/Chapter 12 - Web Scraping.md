@@ -206,3 +206,6 @@ To launch browser:
 Calling `browser.get('https://google.com')` directs the browser to the website.
 - it seems that you need to include `https://` in the link.
 You can install webdriver for other web browsers.
+
+##### Finding elements on the Page
+Webdriver objects has two main types of methods for finding elements. `find_element_*` returns the first match as WebElement object. `find_elements_*` returns a list of WebElement objects.
