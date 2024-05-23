@@ -201,5 +201,8 @@ To launch browser:
 >>> browser = webdriver.Firefox()
 >>> type(browser)
 <class 'selenium.webdriver.firefox.webdriver.WebD
+>>> browser.get('https://google.com')
 ```
-
+Calling `browser.get('https://google.com')` directs the browser to the website.
+- it seems that you need to include `https://` in the link.
+You can install webdriver for other web browsers.
