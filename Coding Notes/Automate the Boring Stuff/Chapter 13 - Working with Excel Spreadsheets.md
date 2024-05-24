@@ -39,13 +39,14 @@ You an change your CWD using `os.chdir()`.
 ```
 
 ##### Getting Cells from the Sheets
+Accessing Worksheet object to access Cell object:
 ```py
 >>> import openpyxl
 >>> wb = openpyxl.load_workbook('example.xlsx')
 >>> sheet = wb['Sheet1'] # Get a sheet from the workbook.
 >>> sheet['A1'] # Get a cell from the sheet.
 <Cell 'Sheet1'.A1>
->>> sheet['A1'].value # Get the value from the cell.
+>>> sheet['A1'].value # Get the value from the cell. <- datetime value
 datetime.datetime(2015, 4, 5, 13, 34, 2)
 >>> c = sheet['B1'] # Get another cell from the sheet.
 >>> c.value
@@ -57,5 +58,31 @@ datetime.datetime(2015, 4, 5, 13, 34, 2)
 'Cell B1 is Apples'
 >>> sheet['C1'].value
 73
+```
+OpenPyXL automatically interpret dates in column A and return them as *datetime* values rather than strings.
+
+Dealing with two letter column can be tricky (AA, AB, AC). You can get a cell using `cell()` method and pass int for its row and column keyword arguments:
+```py
+>>> sheet.cell(row=1, column=2)
+<Cell 'Sheet1'.B1>
+>>> sheet.cell(row=1, column=2).value
+'Apples'
+>>> for i in range(1, 8, 2): # Go through every other row:
+		print(i, sheet.cell(row=i, column=2).value)
+
+
+1 Apples
+3 Pears
+5 Apples
+7 Strawberries
+```
+
+Get the highest row and column number:
+```py
+>>> sheet = wb['Sheet1']
+>>> sheet.max_row # Get the highest row number.
+7
+>>> sheet.max_column # Get the highest column number.
+3
 ```
 
