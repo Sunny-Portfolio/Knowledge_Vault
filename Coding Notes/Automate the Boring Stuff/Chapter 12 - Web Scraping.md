@@ -239,9 +239,31 @@ If no element match is found, selenium module raises NoSuchElement exception. Yo
 | is_selected()       | For checkbox or radio button elements, returns True if the element is selected; otherwise returns False |
 | location            | A dictionary with keys 'x' and 'y' for the position of the element in the page                          |
 
+##### Clicking the Page
+WebElement objects have a `click()` method that simulates a mouse click on that element.
+```py
+>>> from selenium import webdriver
+>>> browser = webdriver.Firefox()
+>>> browser.get('https://inventwithpython.com')
+>>> linkElem = browser.find_element_by_link_text('Read Online for Free')
+>>> type(linkElem)
+<class 'selenium.webdriver.remote.webelement.FirefoxWebElement'>
+>>> linkElem.click() # follows the "Read Online for Free" link
+```
 
+##### Filling out and Submitting Forms
+Find the `<input>` or `<textarea>` element for the text field then call `send_keys()` method.
+```py
+>>> from selenium import webdriver
+>>> browser = webdriver.Firefox()
+>>> browser.get('https://login.metafilter.com')
+>>> userElem = browser.find_element_by_id('user_name)
+>>> userElem.send_keys('your_real_username_here')
 
-
+>>> passwordElem = browser.find_element_by_id('user_pass')
+>>> passwordElem.send_keys('your_real_password_here')
+>>> passwordElem.submit()  # same as clicking submit button
+```
 
  
 
