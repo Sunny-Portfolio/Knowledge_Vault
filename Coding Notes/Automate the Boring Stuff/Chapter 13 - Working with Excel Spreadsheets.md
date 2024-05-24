@@ -1,4 +1,4 @@
-### Install openpyxl Module
+### Install OpenPyXL Module
 ```sh
 pip install --user -U openpyxl==2.6.2
 ```
