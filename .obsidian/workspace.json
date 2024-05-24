@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding Notes/Automate the Boring Stuff/Chapter 12 - Web Scraping.md",
-                "mode": "preview",
+                "file": "Coding Notes/Automate the Boring Stuff/Chapter 13 - Working with Excel Spreadsheets.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding Notes/Automate the Boring Stuff/Chapter 12 - Web Scraping.md",
+                "file": "Coding Notes/Automate the Boring Stuff/Chapter 13 - Working with Excel Spreadsheets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding Notes/Automate the Boring Stuff/Chapter 12 - Web Scraping.md",
+                "file": "Coding Notes/Automate the Boring Stuff/Chapter 13 - Working with Excel Spreadsheets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coding Notes/Automate the Boring Stuff/Chapter 12 - Web Scraping.md"
+                "file": "Coding Notes/Automate the Boring Stuff/Chapter 13 - Working with Excel Spreadsheets.md"
               }
             }
           },
@@ -169,10 +169,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fe3029f70d03ecbd",
+  "active": "d65c94fae8f3d52e",
   "lastOpenFiles": [
-    "Coding/Obsidian Markdown Cheat Sheet.md",
     "Coding Notes/Automate the Boring Stuff/Chapter 12 - Web Scraping.md",
+    "Coding Notes/Automate the Boring Stuff/Chapter 13 - Working with Excel Spreadsheets.md",
+    "Coding/Obsidian Markdown Cheat Sheet.md",
     "Coding Notes/Automate the Boring Stuff/Install 3rd Party Modules.md",
     "Coding Notes/Automate the Boring Stuff/Running Programs.md",
     "\"Running.md",
