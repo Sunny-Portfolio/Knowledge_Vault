@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Coding Notes/Automate the Boring Stuff/Chapter 13 - Working with Excel Spreadsheets.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -169,7 +169,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d65c94fae8f3d52e",
+  "active": "fe3029f70d03ecbd",
   "lastOpenFiles": [
     "Coding Notes/Automate the Boring Stuff/Chapter 12 - Web Scraping.md",
     "Coding Notes/Automate the Boring Stuff/Chapter 13 - Working with Excel Spreadsheets.md",
