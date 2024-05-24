@@ -76,6 +76,13 @@ You can save web page to a file with standard `open()` function and `write()` me
 - `iter_content()`returns "chunks" of the content on each iteration via the loop. 
 - pass a number as the number of byte in chunk size to `iter_content()`
 
+Alternative way to save a request response to a file (not in the book):
+```py
+with open('file_name', 'wb') as file:
+    file.write(response.content)
+
+```
+
 ---
 ### Parsing HTML the bs4 (Beautiful Soup 4) Module
 Beautiful Soup is a module for extracting information from an HTML page.
