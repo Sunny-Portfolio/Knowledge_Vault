@@ -38,3 +38,24 @@ You an change your CWD using `os.chdir()`.
 <Worksheet "Sheet1">
 ```
 
+##### Getting Cells from the Sheets
+```py
+>>> import openpyxl
+>>> wb = openpyxl.load_workbook('example.xlsx')
+>>> sheet = wb['Sheet1'] # Get a sheet from the workbook.
+>>> sheet['A1'] # Get a cell from the sheet.
+<Cell 'Sheet1'.A1>
+>>> sheet['A1'].value # Get the value from the cell.
+datetime.datetime(2015, 4, 5, 13, 34, 2)
+>>> c = sheet['B1'] # Get another cell from the sheet.
+>>> c.value
+'Apples'
+>>> # Get the row, column, and value from the cell.
+>>> 'Row %s, Column %s is %s' % (c.row, c.column, c.value)
+'Row 1, Column B is Apples'
+>>> 'Cell %s is %s' % (c.coordinate, c.value)
+'Cell B1 is Apples'
+>>> sheet['C1'].value
+73
+```
+
