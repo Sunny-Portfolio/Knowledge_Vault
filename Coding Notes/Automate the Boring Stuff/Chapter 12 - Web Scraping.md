@@ -265,9 +265,26 @@ Find the `<input>` or `<textarea>` element for the text field then call `send_ke
 >>> passwordElem.submit()  # same as clicking submit button
 ```
 
+##### Sending Special Keys
+ selenium module has a module for keyboard keys that are impossible to type into a string value. These keys may be used to maneuver the webpage.
  
+| Attributes                                        | Meanings                                      |
+| ------------------------------------------------- | --------------------------------------------- |
+| Keys.DOWN, Keys.UP, Keys.LEFT, Keys.RIGHT         | The keyboard arrow keys                       |
+| Keys.ENTER, Keys.RETURN                           | The enter and return keys                     |
+| Keys.HOME, Keys.END, Keys.PAGE_DOWN, Keys.PAGE_UP | The home, end, pagedown, and pageup keys      |
+| Keys.ESCAPE, Keys.BACK_SPACE, Keys.DELETE         | The esc, backspace, and delete keys           |
+| Keys.F1, Keys.F2, . . . , Keys.F12                | The F1 to F12 keys at the top of the keyboard |
+| Keys.TAB                                          | The tab key                                   |
 
 
-
- 
+```py
+>>> from selenium import webdriver
+>>> from selenium.webdriver.common.keys import Keys
+>>> browser = webdriver.Firefox()
+>>> browser.get('https://nostarch.com')
+>>> htmlElem = browser.find_element_by_tag_name('html')
+>>> htmlElem.send_keys(Keys.END) # scrolls to bottom
+>>> htmlElem.send_keys(Keys.HOME) # scrolls to top
+```
 
