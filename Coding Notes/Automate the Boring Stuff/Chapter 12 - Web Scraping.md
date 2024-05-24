@@ -212,6 +212,7 @@ Webdriver objects has two main types of methods for finding elements.
 1. `find_element_*` returns the first match as WebElement object. 
 2. `find_elements_*` returns a list of WebElement objects.
 
+###### Selenium’s WebDriver Methods for Finding Elements:
 | Method Name                                      | WebElement object/list returned                                                                 |
 | ------------------------------------------------ | ----------------------------------------------------------------------------------------------- |
 | browser.find_elements_by_class_name(name)        | Elements that use the CSS class name                                                            |
@@ -226,8 +227,7 @@ The arguments to all the methods are case sensitive, except for the `find_elemen
 If no element match is found, selenium module raises NoSuchElement exception. You may use `try` and `except` to handle it. 
 
 
-WebElement Attributes and Methods:
-
+###### WebElement Attributes and Methods:
 | Attribute or method | Description                                                                                             |
 | ------------------- | ------------------------------------------------------------------------------------------------------- |
 | tag_name            | The tag name, such as 'a' for an \<a> element                                                           |
