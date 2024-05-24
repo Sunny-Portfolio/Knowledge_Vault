@@ -277,7 +277,7 @@ Find the `<input>` or `<textarea>` element for the text field then call `send_ke
 | Keys.F1, Keys.F2, . . . , Keys.F12                | The F1 to F12 keys at the top of the keyboard |
 | Keys.TAB                                          | The tab key                                   |
 
-
+Find HTML tag and scroll to top / bottom:
 ```py
 >>> from selenium import webdriver
 >>> from selenium.webdriver.common.keys import Keys
@@ -287,4 +287,23 @@ Find the `<input>` or `<textarea>` element for the text field then call `send_ke
 >>> htmlElem.send_keys(Keys.END) # scrolls to bottom
 >>> htmlElem.send_keys(Keys.HOME) # scrolls to top
 ```
+
+##### Clicking Browser Buttons
+| Method            | Action                            |
+| ----------------- | --------------------------------- |
+| browser.back()    | Clicks the Back button.           |
+| browser.forward() | Clicks the Forward button.        |
+| browser.refresh() | Clicks the Refresh/Reload button. |
+| browser.quit()    | Clicks the Close Window button.   |
+
+##### Additional Selenium Functions
+[Check the selenium documentation](https://selenium-python.readthedocs.org/)
+
+
+
+
+
+
+
+
 
