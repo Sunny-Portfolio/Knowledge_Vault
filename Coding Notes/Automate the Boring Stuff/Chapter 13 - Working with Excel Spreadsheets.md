@@ -135,4 +135,24 @@ C3 14
 --- END OF ROW ---
 ```
 
-To access the 
+To access the values of cells in particular row or column:
+```py
+>>> import openpyxl
+>>> wb = openpyxl.load_workbook('example.xlsx')
+>>> sheet = wb.active
+>>> list(sheet.columns)[1] # Get second column's cells.
+(<Cell 'Sheet1'.B1>, <Cell 'Sheet1'.B2>, <Cell 'Sheet1'.B3>, <Cell 'Sheet1'.
+B4>, <Cell 'Sheet1'.B5>, <Cell 'Sheet1'.B6>, <Cell 'Sheet1'.B7>)
+>>> for cellObj in list(sheet.columns)[1]:
+		print(cellObj.value)
+
+Apples
+Cherries
+Pears
+Oranges
+Apples
+Bananas
+Strawberries
+```
+
+
