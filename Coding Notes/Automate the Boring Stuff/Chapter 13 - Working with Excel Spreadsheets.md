@@ -117,9 +117,9 @@ To convert from numbers to letters, call `openpyxl.utils.get_column_letter()`.
 'Sheet1'.A2>, <Cell 'Sheet1'.B2>, <Cell 'Sheet1'.C2>), (<Cell 'Sheet1'.A3>,
 <Cell 'Sheet1'.B3>, <Cell 'Sheet1'.C3>))
 >>> for rowOfCellObjects in sheet['A1':'C3']:
-	... for cellObj in rowOfCellObjects:
-	... print(cellObj.coordinate, cellObj.value)
-... print('--- END OF ROW ---')
+		for cellObj in rowOfCellObjects:
+			print(cellObj.coordinate, cellObj.value)
+		print('--- END OF ROW ---')
 
 A1 2015-04-05 13:34:02Working with Excel Spreadsheets   307
 B1 Apples
@@ -134,3 +134,5 @@ B3 Pears
 C3 14
 --- END OF ROW ---
 ```
+
+To access the 
