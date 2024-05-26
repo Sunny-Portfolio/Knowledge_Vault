@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding Notes/Automate the Boring Stuff/Chapter 1-6 - Basics Python.md",
+                "file": "Coding/Obsidian Markdown Cheat Sheet.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding Notes/Automate the Boring Stuff/Chapter 1-6 - Basics Python.md",
+                "file": "Coding/Obsidian Markdown Cheat Sheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding Notes/Automate the Boring Stuff/Chapter 1-6 - Basics Python.md",
+                "file": "Coding/Obsidian Markdown Cheat Sheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coding Notes/Automate the Boring Stuff/Chapter 1-6 - Basics Python.md"
+                "file": "Coding/Obsidian Markdown Cheat Sheet.md"
               }
             }
           },
@@ -170,6 +170,7 @@
   },
   "active": "fe3029f70d03ecbd",
   "lastOpenFiles": [
+    "Coding Notes/Automate the Boring Stuff/Chapter 1-6 - Basics Python.md",
     "Coding Notes/Automate the Boring Stuff/Chapter 7 - Regular Expression.md",
     "Coding Notes/Automate the Boring Stuff/Chapter 11 - Debugging.md",
     "Coding Notes/Automate the Boring Stuff/Chapter 8 - Input Validation.md",
@@ -182,7 +183,6 @@
     "Coding Notes/Automate the Boring Stuff/Running Programs.md",
     "\"Running.md",
     "Running.md",
-    "Coding Notes/Automate the Boring Stuff/Chapter 1-6 - Basics Python.md",
     "Coding Notes/Automate the Boring Stuff/Untitled",
     "Untitled.md",
     "dictionary.md",
