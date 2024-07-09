@@ -30,6 +30,16 @@
             }
           },
           {
+            "id": "a86198c7f70036df",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.5"
+              }
+            }
+          },
+          {
             "id": "d9415c7603be4290",
             "type": "leaf",
             "state": {
@@ -42,7 +52,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -179,7 +189,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ce160d43c2127d03",
+  "active": "a86198c7f70036df",
   "lastOpenFiles": [
     "Untitled.md",
     "Coding/Obsidian Markdown Cheat Sheet.md",
