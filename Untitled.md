@@ -7,4 +7,4 @@
 7. General car check (brake), get ready for safety. (ask if they can do safety)
 8. See if engine oil needs to be changed
 9. Check if alignment is needed (only very slight right)
-10. 
+10. Ask about windshield glass replacement
