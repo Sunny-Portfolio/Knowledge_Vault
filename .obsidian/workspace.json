@@ -43,9 +43,11 @@
             "id": "1285377836c618a9",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.6.7"
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -128,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding/Obsidian Markdown Cheat Sheet.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding/Obsidian Markdown Cheat Sheet.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coding/Obsidian Markdown Cheat Sheet.md"
+                "file": "Untitled.md"
               }
             }
           },
