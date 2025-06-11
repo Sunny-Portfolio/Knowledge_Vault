@@ -52,6 +52,18 @@
             }
           },
           {
+            "id": "d921a2fba333f81c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Job Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "d9415c7603be4290",
             "type": "leaf",
             "state": {
@@ -64,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -130,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "Job Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "Job Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "Job Notes.md"
               }
             }
           },
@@ -201,25 +213,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1285377836c618a9",
+  "active": "d921a2fba333f81c",
   "lastOpenFiles": [
     "Untitled.md",
+    "Job Notes.md",
+    "Running.md",
+    "README.md",
+    "Poutine.md",
+    "\"Running.md",
+    "Coding Notes/Automate the Boring Stuff/Chapter 11 - Debugging.md",
+    "Coding Notes/Automate the Boring Stuff/Chapter 12 - Web Scraping.md",
+    "Coding Notes/Automate the Boring Stuff/Chapter 13 - Working with Excel Spreadsheets.md",
     "Coding/Obsidian Markdown Cheat Sheet.md",
     "Coding Notes/Automate the Boring Stuff/Chapter 1-6 - Basics Python.md",
     "Coding Notes/Automate the Boring Stuff/Chapter 7 - Regular Expression.md",
-    "Coding Notes/Automate the Boring Stuff/Chapter 11 - Debugging.md",
     "Coding Notes/Automate the Boring Stuff/Chapter 8 - Input Validation.md",
     "Coding Notes/Automate the Boring Stuff/Chapter 9 - Reading and Writing Files.md",
     "Coding Notes/Automate the Boring Stuff/Chapter 10 - Organizing Files.md",
-    "Coding Notes/Automate the Boring Stuff/Chapter 13 - Working with Excel Spreadsheets.md",
-    "Coding Notes/Automate the Boring Stuff/Chapter 12 - Web Scraping.md",
     "Coding Notes/Automate the Boring Stuff/Install 3rd Party Modules.md",
     "Coding Notes/Automate the Boring Stuff/Running Programs.md",
-    "\"Running.md",
-    "Running.md",
     "Coding Notes/Automate the Boring Stuff/Untitled",
     "dictionary.md",
-    "Poutine.md",
     "Coding/Git Cheat Sheet.md",
     "link4.md",
     "coding.md",
